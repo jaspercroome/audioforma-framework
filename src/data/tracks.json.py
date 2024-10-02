@@ -14,71 +14,91 @@ def generate_sample_tracks():
             "name": "High Energy, Danceable",
             "danceability": 0.9,
             "energy": 0.9,
-            "loudness": 0,
-            "tempo": 130,
+            "mode": 1,
             "valence": 0.7,
-            "key": 1
+            "key": 1,
+            "tempo":90
         },
         {
             "id": "sample_loud_fast1",
             "name": "Loud, Fast & Happy",
             "danceability": 0.6,
             "energy": 0.8,
-            "loudness": -2.0,
-            "tempo": 160,
+            "mode": 1,
             "valence": 0.8,
-            "key": 8
+            "key": 8,
+            "tempo":90
         },
         {
             "id": "sample_happy_high2",
             "name": "Fast & Happy",
             "danceability": 0.75,
-            "energy": 0.65,
-            "loudness": -5.5,
-            "tempo": 125,
+            "energy": 1,
+            "mode": 1,
             "valence": 0.95,
-            "key": 9
+            "key": 9,
+            "tempo":90
         },
         {
             "id": "sample_loud_angry",
             "name": "Loud & Angry",
             "danceability": 0.55,
-            "energy": 0.85,
-            "loudness": -1.5,
-            "tempo": 120,
+            "energy": 1,
+            "mode": 0,
             "valence": 0.2,
-            "key": 5
+            "key": 5,
+            "tempo":90
         },
         {
             "id": "sample_slow_sad",
             "name": "Slow & Sad",
             "danceability": 0.55,
             "energy": 0.2,
-            "loudness": -7.5,
-            "tempo": 60,
+            "mode": 0,
             "valence": 0,
-            "key": 5
+            "key": 5,
+            "tempo":90
         },
         {
             "id": "sample_no_dancing",
             "name": "No Dancing",
             "danceability": 0,
             "energy": 0.5,
-            "loudness": -3.5,
-            "tempo": 90,
+            "mode": 1,
             "valence": 0.5,
-            "key": 5
+            "key": 5,
+            "tempo":90
         },
         {
             "id": "sample_chill_dancing",
             "name": "Chill Dancing",
             "danceability": 1,
             "energy": 0.2,
-            "loudness": -3.5,
-            "tempo": 90,
+            "mode": 1,
             "valence": 0.5,
-            "key": 5
-        }
+            "key": 5,
+            "tempo":90
+        },
+        {
+            "id": "sample_minor_key",
+            "name": "Minor key",
+            "danceability": .5,
+            "energy": 0.2,
+            "mode": 0,
+            "valence": 0.5,
+            "key": 5,
+            "tempo":90
+        },
+        {
+            "id": "sample_major_key",
+            "name": "Major key",
+            "danceability": .5,
+            "energy": 0.2,
+            "mode": 1,
+            "valence": 0.5,
+            "key": 5,
+            "tempo":90
+        },
     ]
   return sample_tracks
 
@@ -92,7 +112,7 @@ sample_tracks = generate_sample_tracks()
 tracks_data.extend(sample_tracks)
 
 # Prepare features
-features = ['danceability', 'energy', 'loudness', 'tempo', 'valence','key',"acousticness"]
+features = ['tempo','key','mode','valence','danceability']
 
 df = pd.DataFrame(tracks_data)
 
@@ -124,14 +144,14 @@ merged_data = [
         'artist':artist,
         'preview_url': preview_url,
         'energy':energy,
-        'loudness':loudness,
         'valence':valence,
         'danceability':danceability,
-        'acousticness':acousticness,
+        'key':key,
+        'mode':mode,
         'pca': pca_coords.tolist(),
         'tsne': tsne_coords.tolist()
     }
-    for track_id, name, artist, preview_url, energy, valence, loudness,danceability,acousticness, pca_coords, tsne_coords in zip(df['id'], df['name'], df['artist_name'], df['preview_url'],df['energy'],df['valence'],df['danceability'], df['acousticness'], df['loudness'], X_pca, X_tsne)
+    for track_id, name, artist, preview_url, energy, valence,danceability, key,mode,pca_coords, tsne_coords in zip(df['id'], df['name'], df['artist_name'], df['preview_url'],df['energy'],df['valence'],df['danceability'], df['key'], df['mode'], X_pca, X_tsne)
 ]
 
 json.dump(merged_data, sys.stdout)
