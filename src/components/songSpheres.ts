@@ -1,4 +1,7 @@
 import * as THREE from "three";
+import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js";
+import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
+import { BokehPass } from "three/examples/jsm/postprocessing/BokehPass.js";
 import * as d3 from "d3";
 import CameraControls from "camera-controls";
 
@@ -16,12 +19,14 @@ type Song = {
   acousticness: number;
   key: number;
   mode: 0 | 1;
-  preview_url?: string;
+  previewUrl?: string;
+  isRepresentative?: boolean;
+  clusterDescription?: string;
 };
 
 type SongArray = Array<Song>;
 
-const dimensions = { width: 800, height: 600 };
+const dimensions = { width: 1200, height: 800 };
 
 const pitchClassMap = {
   0: "C ",
@@ -43,12 +48,14 @@ const setUpScene = () => {
   const camera = new THREE.PerspectiveCamera(
     75,
     dimensions.width / dimensions.height,
-    0.01,
+    0.1,
     1000
   );
   const renderer = new THREE.WebGLRenderer({ antialias: true });
   const clock = new THREE.Clock();
   renderer.setSize(dimensions.width, dimensions.height);
+  renderer.shadowMap.enabled = true; // Enable shadows for realism
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap; // Use soft shadows
   document.body.appendChild(renderer.domElement);
 
   const cameraControls = new CameraControls(camera, renderer.domElement);
@@ -56,51 +63,94 @@ const setUpScene = () => {
   cameraControls.maxZoom = 25;
   cameraControls.minZoom = 0.5;
   cameraControls.smoothTime = 0.3;
+
   return { cameraControls, scene, clock, camera, renderer };
 };
 
 const addSpheres = (songs: SongArray, scene: THREE.Scene) => {
   const spheres: THREE.Mesh[] = [];
-  const sphereGeometry = new THREE.SphereGeometry(0.2, 16, 16);
-  const sampleSphereGeometry = new THREE.SphereGeometry(0.4, 16, 16);
-  const sphereMaterial = new THREE.MeshBasicMaterial();
+  const sphereGeometry = new THREE.SphereGeometry(0.15, 32, 32);
+  const repSphereGeometry = new THREE.SphereGeometry(0.3, 16, 16);
+  const xExtent = d3.extent(songs.map((item) => item.tsne[0])) as [
+    number,
+    number
+  ];
+  const yExtent = d3.extent(songs.map((item) => item.tsne[1])) as [
+    number,
+    number
+  ];
+  const zExtent = d3.extent(songs.map((item) => item.tsne[2])) as [
+    number,
+    number
+  ];
+  const xScale = d3.scaleLinear().domain(xExtent).range([-8, 8]);
+  const yScale = d3.scaleLinear().domain(yExtent).range([-8, 8]);
+  const zScale = d3.scaleLinear().domain(zExtent).range([-8, 8]);
+
   songs.forEach((song) => {
-    const isSample = song.id.includes("sample_");
-    const sampleColor = new THREE.Color(200, 180, 200);
+    const isClusterRep = song.id.includes("rep_");
+    const repColor = new THREE.Color(0.78, 0.7, 0.78);
     const color = new THREE.Color(
       d3.hsl((1 - song.valence) * 270, 0.8, 0.5).toString()
     );
-    const material = sphereMaterial.clone();
-    material.color = isSample ? sampleColor : color;
+    const material = new THREE.MeshStandardMaterial({
+      color: isClusterRep ? repColor : color,
+      roughness: 0.5,
+      metalness: 0.1,
+    });
 
     const sphere = new THREE.Mesh(
-      isSample ? sampleSphereGeometry : sphereGeometry,
+      isClusterRep ? repSphereGeometry : sphereGeometry,
       material
     );
+    sphere.castShadow = true;
     sphere.userData = song;
-    sphere.position.set(...song.tsne);
+    sphere.position.set(
+      xScale(song.tsne[0]),
+      yScale(song.tsne[1]),
+      zScale(song.tsne[2])
+    );
     spheres.push(sphere);
     scene.add(sphere);
   });
+
   return spheres;
 };
 const addLight = (scene: THREE.Scene) => {
-  /**
-   * Lights
-   */
-  const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
+  // Ambient light for overall scene lighting
+  const ambientLight = new THREE.AmbientLight(0xffffff, 1);
   scene.add(ambientLight);
 
-  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.2);
+  // Directional light for creating shadows
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 3);
   directionalLight.castShadow = true;
   directionalLight.shadow.mapSize.set(1024, 1024);
-  directionalLight.shadow.camera.far = 15;
-  directionalLight.shadow.camera.left = -7;
-  directionalLight.shadow.camera.top = 7;
-  directionalLight.shadow.camera.right = 7;
-  directionalLight.shadow.camera.bottom = -7;
-  directionalLight.position.set(5, 5, 5);
+  directionalLight.position.set(5, 10, 5);
   scene.add(directionalLight);
+
+  // Spotlight for highlighting specific areas
+  const spotLight = new THREE.SpotLight(0xffffff, 1.5, 30, Math.PI / 6, 1.5);
+  spotLight.position.set(-10, 20, 10);
+  spotLight.castShadow = true;
+  scene.add(spotLight);
+};
+const setUpComposer = (
+  renderer: THREE.WebGLRenderer,
+  scene: THREE.Scene,
+  camera: THREE.Camera
+) => {
+  const composer = new EffectComposer(renderer);
+  composer.addPass(new RenderPass(scene, camera));
+
+  // Add Bokeh (depth of field) pass
+  const bokehPass = new BokehPass(scene, camera, {
+    focus: 12.0, // Adjust focus distance
+    aperture: 0.025, // Aperture - affects bokeh intensity
+    maxblur: 1.0, // Maximum blur
+  });
+  composer.addPass(bokehPass);
+
+  return composer;
 };
 const addFloor = (scene: THREE.Scene) => {
   const floor = new THREE.Mesh(
@@ -187,8 +237,10 @@ const onMouseClick = (
       targetPosition.z,
       true // Animation enabled for smooth transition
     );
-    const audioPlayer = document.querySelector("#player") as HTMLAudioElement;
-    audioPlayer.src = intersected.userData.preview_url;
+    const audioPlayer = document.querySelector(
+      "#sample-player"
+    ) as HTMLAudioElement;
+    audioPlayer.src = intersected.userData.previewUrl;
   }
 };
 
@@ -205,12 +257,12 @@ const barScale = (value: number) => {
 
 const updateTooltip = (songData: Song, tooltip: HTMLDivElement | null) => {
   if (tooltip) {
-    if (!songData.id.includes("sample_")) {
+    if (!songData.id.includes("rep_")) {
       const title = document.getElementById("tooltip-title");
       const prompt = document.getElementById("preview-prompt");
       if (title) {
         title.innerHTML = `<strong>${songData.name} - ${songData.artist}</strong>`;
-        if (songData.preview_url) {
+        if (songData.previewUrl) {
           if (prompt) {
             prompt.style.visibility = "visible";
           }
@@ -220,19 +272,13 @@ const updateTooltip = (songData: Song, tooltip: HTMLDivElement | null) => {
           }
         }
       }
-      const key = document.getElementById("key-value");
-      if (key) {
-        key.innerHTML =
-          pitchClassMap[songData.key] + (songData.mode ? " major" : " minor");
-      }
-      // line1.innerHTML = `<p>key:</p><strong>${songData.key}</strong>`;
       // line2.innerHTML = `<p>mode:</p><strong>${
       //   songData.mode > 0 ? "Major" : "Minor"
       // }</strong>`;
     } else {
       const title = document.getElementById("tooltip-title");
       if (title) {
-        title.innerHTML = `<strong>Sample Song: ${songData.name}</strong>`;
+        title.innerHTML = `<strong>Cluster Representative: ${songData.name}</strong><br><p>${songData.clusterDescription}</p>`;
       }
     }
     tooltip.style.opacity = "1";
@@ -262,6 +308,8 @@ export const songSpheres = (songs: SongArray, artists: Array<string>) => {
   window.addEventListener("click", (e) =>
     onMouseClick(e, mouse, raycaster, cameraControls, camera, spheres)
   );
+  // Set up post-processing with bokeh effect
+  const composer = setUpComposer(renderer, scene, camera);
 
   // Animation Loop
   function animate() {

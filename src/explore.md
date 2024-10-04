@@ -6,23 +6,33 @@ toc: false
 
 # Explore
 
-Take a look at how 700+ spotify songs compare to one another
+Take a look at how my spotify songs compare to one another
+
+```js
+import { connectAudio } from "./components/connectAudio.js";
+import { getSpotifyData } from "./components/getSpotifyData.js";
+import { MeydaChart } from "./components/meydaChart.js";
+import { songSpheres } from "./components/songSpheres.js";
+```
 
 ```ts
 const tracks = await FileAttachment("./data/tracks.json").json();
 ```
 
-```ts
-const mySongs = await FileAttachment("./data/my_songs.json").json();
+<!-- ```ts
+uncomment this to load your latest songs, which can then be pasted into my_tracks
+const mySongs = await getSpotifyData();
 display(mySongs);
-```
+``` -->
 
 ```ts
-const artists = Array.from(
-  new Set(tracks.map((track) => (track.preview_url ? track.artist : "")))
-).sort();
+const artists = Array.from(new Set(tracks.map((track) => track.artist))).sort();
 const artistsSelection = view(
-  Inputs.select(artists, { multiple: true, label: "Focus Artists" })
+  Inputs.search(artists, {
+    multiple: true,
+    label: "Focus Artists",
+    autocomplete: true,
+  })
 );
 ```
 
@@ -43,48 +53,7 @@ const artistsSelection = view(
   <p id="preview-prompt" style="visibility: hidden;">
     Click the sphere for a 30s preview
   </p>
-  <div
-    class="tooltip-line"
-    style="
-    display: flex; 
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    "
-  >
-    <p>key:</p>
-    <p id="key-value"></p>
-  </div>
-
-  <div
-    class="tooltip-line"
-    style="
-    display: flex; 
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    "
-  >
-    <p>danceability</p>
-    <p id="danceability-value"></p>
-  </div>
-  <div
-    class="tooltip-line"
-    style="
-    display: flex; 
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    "
-  >
-    <p>energy</p>
-    <p id="energy-value"></p>
-  </div>
 </div>
-```
-
-```js
-import { songSpheres } from "./components/songSpheres.js";
 ```
 
 ```ts
@@ -92,5 +61,5 @@ display(songSpheres(tracks, artistsSelection));
 ```
 
 ```html
-<audio id="player" src="" controls autoplay />
+<audio id="sample-player" src="" controls autoplay crossorigin="anonymous" />
 ```

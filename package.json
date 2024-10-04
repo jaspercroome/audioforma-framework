@@ -11,11 +11,15 @@
   "dependencies": {
     "@observablehq/framework": "^1.11.0",
     "@types/d3": "^7.4.3",
+    "@types/meyda": "^4.3.8",
     "@types/three": "^0.169.0",
     "camera-controls": "^2.9.0",
     "d3": "^7.9.0",
     "d3-dsv": "^3.0.1",
     "d3-time-format": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "meyda": "^5.6.3",
+    "path": "^0.12.7",
     "react": "^18.3.1",
     "three": "^0.169.0"
   },

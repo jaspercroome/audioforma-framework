@@ -4,154 +4,129 @@ import numpy as np
 import pandas as pd
 import datetime
 from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
+from sklearn.cluster import DBSCAN
+from collections import Counter
 
-def generate_sample_tracks():
-  sample_tracks = [
-        {
-            "id": "sample_dance_energy1",
-            "name": "High Energy, Danceable",
-            "danceability": 0.9,
-            "energy": 0.9,
-            "mode": 1,
-            "valence": 0.7,
-            "key": 1,
-            "tempo":90
-        },
-        {
-            "id": "sample_loud_fast1",
-            "name": "Loud, Fast & Happy",
-            "danceability": 0.6,
-            "energy": 0.8,
-            "mode": 1,
-            "valence": 0.8,
-            "key": 8,
-            "tempo":90
-        },
-        {
-            "id": "sample_happy_high2",
-            "name": "Fast & Happy",
-            "danceability": 0.75,
-            "energy": 1,
-            "mode": 1,
-            "valence": 0.95,
-            "key": 9,
-            "tempo":90
-        },
-        {
-            "id": "sample_loud_angry",
-            "name": "Loud & Angry",
-            "danceability": 0.55,
-            "energy": 1,
-            "mode": 0,
-            "valence": 0.2,
-            "key": 5,
-            "tempo":90
-        },
-        {
-            "id": "sample_slow_sad",
-            "name": "Slow & Sad",
-            "danceability": 0.55,
-            "energy": 0.2,
-            "mode": 0,
-            "valence": 0,
-            "key": 5,
-            "tempo":90
-        },
-        {
-            "id": "sample_no_dancing",
-            "name": "No Dancing",
-            "danceability": 0,
-            "energy": 0.5,
-            "mode": 1,
-            "valence": 0.5,
-            "key": 5,
-            "tempo":90
-        },
-        {
-            "id": "sample_chill_dancing",
-            "name": "Chill Dancing",
-            "danceability": 1,
-            "energy": 0.2,
-            "mode": 1,
-            "valence": 0.5,
-            "key": 5,
-            "tempo":90
-        },
-        {
-            "id": "sample_minor_key",
-            "name": "Minor key",
-            "danceability": .5,
-            "energy": 0.2,
-            "mode": 0,
-            "valence": 0.5,
-            "key": 5,
-            "tempo":90
-        },
-        {
-            "id": "sample_major_key",
-            "name": "Major key",
-            "danceability": .5,
-            "energy": 0.2,
-            "mode": 1,
-            "valence": 0.5,
-            "key": 5,
-            "tempo":90
-        },
-    ]
-  return sample_tracks
-
-with open('src/data/raw_tracks.json') as filesource:
-  data = json.load(filesource)
+with open('src/data/my_tracks.json') as filesource:
+    data = json.load(filesource)
 
 current_time = datetime.datetime.now()
 tracks_data = data['tracks']
 
-sample_tracks = generate_sample_tracks()
-tracks_data.extend(sample_tracks)
-
-# Prepare features
-features = ['tempo','key','mode','valence','danceability']
-
 df = pd.DataFrame(tracks_data)
 
-X = df[features]
+df['tempo_bucketed'] = (df['tempo'] // 30) * 30
+df['energy_bucketed'] = (((df['energy']*100) // 20) * 20 )/ 100
+df['danceability_bucketed'] = (((df['danceability']*100) // 10) * 10)
+df['valence_bucketed'] = (((df['valence']*100) // 10) * 10)
+
+features = ['key','mode', 'time_signature', 'energy_bucketed', 'danceability_bucketed', 'valence_bucketed']
+
+filtered_df = df.dropna(subset=features)
+X = filtered_df[features]
 
 # Normalize the features
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Reduce dimensions using PCA
-pca = PCA(n_components=3)
-X_pca = pca.fit_transform(X_scaled)
-
 # Reduce dimensions using t-SNE
-tsne = TSNE(n_components=3, random_state=42, learning_rate=100)
+tsne = TSNE(n_components=3, random_state=30, early_exaggeration=12)
 X_tsne = tsne.fit_transform(X_scaled)
 
-# Grab the artist's name
-df['artist_name'] = df['artists'].apply(
+# Apply DBSCAN to the t-SNE output
+dbscan = DBSCAN(eps=.9, min_samples=5)  # Adjust `eps` and `min_samples` for best results
+cluster_labels = dbscan.fit_predict(X_tsne)
+
+# Add cluster labels to the dataframe
+filtered_df['cluster'] = cluster_labels
+
+# Grab the artist's name and preview URL
+filtered_df['artist_name'] = filtered_df['artists'].apply(
     lambda x: x[0]['name'] if isinstance(x, list) and len(x) > 0 else ""
 )
-df['preview_url'] = df['preview_url'].apply(lambda x: x if isinstance(x,str) else "")
+filtered_df['previewUrl'] = filtered_df['previewUrl'].apply(lambda x: x if isinstance(x, str) else "")
+
+# Find a representative track for each cluster and create cluster descriptions
+cluster_representatives = []
+for cluster_id in set(cluster_labels):
+    if cluster_id == -1:
+        continue  # Skip the noise points (DBSCAN labels them as -1)
+
+    # Get all tracks in the current cluster
+    cluster_tracks = filtered_df[filtered_df['cluster'] == cluster_id]
+
+    # Calculate the centroid of the cluster
+    cluster_centroid = X_tsne[filtered_df['cluster'] == cluster_id].mean(axis=0)
+
+    # Find the track closest to the centroid
+    closest_index = np.linalg.norm(X_tsne[filtered_df['cluster'] == cluster_id] - cluster_centroid, axis=1).argmin()
+    representative_track = cluster_tracks.iloc[closest_index]
+
+    # Generate a more relatable description for the cluster
+    avg_energy = cluster_tracks['energy'].mean()
+    avg_tempo = cluster_tracks['tempo_bucketed'].mean()
+    common_key = Counter(cluster_tracks['key']).most_common(1)[0][0]
+    common_mode = Counter(cluster_tracks['mode']).most_common(1)[0][0]
+
+    # Convert key from integer to note representation
+    key_mapping = [
+        'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'
+    ]
+    common_key_note = key_mapping[common_key]
+
+    # Define energy level dynamically
+    if avg_energy < 0.3:
+        energy_level = "low energy"
+    elif avg_energy < 0.7:
+        energy_level = "moderate energy"
+    else:
+        energy_level = "high energy"
+
+    cluster_description = (
+        f"This group of songs has a {energy_level}, "
+        f"with an average tempo of around {avg_tempo:.0f} beats per minute (BPM). "
+        f"The most common key is {common_key_note}, "
+        f"and the songs tend to be in a {'major' if common_mode == 1 else 'minor'} scale, "
+        f"which gives them a {'brighter' if common_mode == 1 else 'darker'} feel."
+    )
+
+    # Add representative track to list, modifying the track ID
+    cluster_representatives.append({
+        'id': f"rep_{representative_track['id']}",
+        'name': representative_track['name'],
+        'artist': representative_track['artist_name'],
+        'previewUrl': representative_track['previewUrl'],
+        'tsne': X_tsne[filtered_df.index.get_loc(representative_track.name)].tolist(),
+        'cluster': int(cluster_id),
+        'isRepresentative': True,
+        'clusterDescription': cluster_description
+    })
 
 # Merge results with track IDs
 merged_data = [
     {
         'id': track_id,
         'name': name,
-        'artist':artist,
-        'preview_url': preview_url,
-        'energy':energy,
-        'valence':valence,
-        'danceability':danceability,
-        'key':key,
-        'mode':mode,
-        'pca': pca_coords.tolist(),
-        'tsne': tsne_coords.tolist()
+        'artist': artist,
+        'previewUrl': previewUrl,
+        'energy': float(energy),
+        'valence': float(valence),
+        'danceability': float(danceability),
+        'key': int(key),
+        'mode': int(mode),
+        'timeSignature': int(time_signature),
+        'tsne': tsne_coords.tolist(),
+        'cluster': int(cluster),
+        'isRepresentative': False
     }
-    for track_id, name, artist, preview_url, energy, valence,danceability, key,mode,pca_coords, tsne_coords in zip(df['id'], df['name'], df['artist_name'], df['preview_url'],df['energy'],df['valence'],df['danceability'], df['key'], df['mode'], X_pca, X_tsne)
+    for track_id, name, artist, previewUrl, energy, valence, danceability, key, mode, time_signature, tsne_coords, cluster
+    in zip(filtered_df['id'], filtered_df['name'], filtered_df['artist_name'], filtered_df['previewUrl'],
+           filtered_df['energy'], filtered_df['valence'], filtered_df['danceability'], filtered_df['key'],
+           filtered_df['mode'], filtered_df['time_signature'], X_tsne, filtered_df['cluster'])
 ]
+
+# Include cluster representatives in the final output
+merged_data.extend(cluster_representatives)
 
 json.dump(merged_data, sys.stdout)
