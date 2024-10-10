@@ -1,6 +1,3227 @@
 {
   "tracks": [
     {
+      "id": "0J9yIH0Fm2IZvhsMPP4d4N",
+      "previewUrl": "https://p.scdn.co/mp3-preview/5f3e61637952977f8024b298dc9003a604bc131e?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Atari",
+      "href": "https://api.spotify.com/v1/tracks/0J9yIH0Fm2IZvhsMPP4d4N",
+      "artists": [
+        {
+          "name": "Hiatus Kaiyote"
+        }
+      ],
+      "danceability": 0.324,
+      "energy": 0.542,
+      "key": 9,
+      "loudness": -9.63,
+      "mode": 1,
+      "speechiness": 0.103,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0154,
+      "liveness": 0.34,
+      "valence": 0.409,
+      "tempo": 158.089,
+      "type": "audio_features",
+      "uri": "spotify:track:0J9yIH0Fm2IZvhsMPP4d4N",
+      "track_href": "https://api.spotify.com/v1/tracks/0J9yIH0Fm2IZvhsMPP4d4N",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0J9yIH0Fm2IZvhsMPP4d4N",
+      "duration_ms": 368533,
+      "time_signature": 4
+    },
+    {
+      "id": "4UOSM66BYQRD4YbOIkcTO8",
+      "previewUrl": "https://p.scdn.co/mp3-preview/cac4bac75cfa9eb983bd15dcdf8d8dcff94f1d9b?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Breathing Underwater",
+      "href": "https://api.spotify.com/v1/tracks/4UOSM66BYQRD4YbOIkcTO8",
+      "artists": [
+        {
+          "name": "Hiatus Kaiyote"
+        }
+      ],
+      "danceability": 0.511,
+      "energy": 0.391,
+      "key": 7,
+      "loudness": -10.85,
+      "mode": 1,
+      "speechiness": 0.0443,
+      "acousticness": 0.487,
+      "instrumentalness": 0,
+      "liveness": 0.112,
+      "valence": 0.58,
+      "tempo": 112.196,
+      "type": "audio_features",
+      "uri": "spotify:track:4UOSM66BYQRD4YbOIkcTO8",
+      "track_href": "https://api.spotify.com/v1/tracks/4UOSM66BYQRD4YbOIkcTO8",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4UOSM66BYQRD4YbOIkcTO8",
+      "duration_ms": 344320,
+      "time_signature": 4
+    },
+    {
+      "id": "3c7N2fCFB4JVKGF8cWfteh",
+      "previewUrl": "https://p.scdn.co/mp3-preview/920c5448654bb27b2d83b42c7ed7cb053db21ecc?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Fingerprints",
+      "href": "https://api.spotify.com/v1/tracks/3c7N2fCFB4JVKGF8cWfteh",
+      "artists": [
+        {
+          "name": "Hiatus Kaiyote"
+        }
+      ],
+      "danceability": 0.6,
+      "energy": 0.237,
+      "key": 8,
+      "loudness": -11.212,
+      "mode": 1,
+      "speechiness": 0.0466,
+      "acousticness": 0.521,
+      "instrumentalness": 0.0466,
+      "liveness": 0.117,
+      "valence": 0.325,
+      "tempo": 79.8,
+      "type": "audio_features",
+      "uri": "spotify:track:3c7N2fCFB4JVKGF8cWfteh",
+      "track_href": "https://api.spotify.com/v1/tracks/3c7N2fCFB4JVKGF8cWfteh",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3c7N2fCFB4JVKGF8cWfteh",
+      "duration_ms": 256920,
+      "time_signature": 4
+    },
+    {
+      "id": "2m6knc5tEfzVYwGY6GlCPm",
+      "previewUrl": "https://p.scdn.co/mp3-preview/51564e2d1f0530ad06b5239b5c52adf02de89b66?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Molasses",
+      "href": "https://api.spotify.com/v1/tracks/2m6knc5tEfzVYwGY6GlCPm",
+      "artists": [
+        {
+          "name": "Hiatus Kaiyote"
+        }
+      ],
+      "danceability": 0.554,
+      "energy": 0.443,
+      "key": 7,
+      "loudness": -7.461,
+      "mode": 0,
+      "speechiness": 0.211,
+      "acousticness": 0.185,
+      "instrumentalness": 0.0000192,
+      "liveness": 0.16,
+      "valence": 0.483,
+      "tempo": 83.892,
+      "type": "audio_features",
+      "uri": "spotify:track:2m6knc5tEfzVYwGY6GlCPm",
+      "track_href": "https://api.spotify.com/v1/tracks/2m6knc5tEfzVYwGY6GlCPm",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2m6knc5tEfzVYwGY6GlCPm",
+      "duration_ms": 289480,
+      "time_signature": 4
+    },
+    {
+      "id": "6xQ8drnnljrgBscmT5ZqBw",
+      "name": "Proceed",
+      "href": "https://api.spotify.com/v1/tracks/6xQ8drnnljrgBscmT5ZqBw",
+      "artists": [
+        {
+          "name": "The Roots"
+        }
+      ],
+      "danceability": 0.746,
+      "energy": 0.548,
+      "key": 1,
+      "loudness": -9.699,
+      "mode": 1,
+      "speechiness": 0.345,
+      "acousticness": 0.0394,
+      "instrumentalness": 0,
+      "liveness": 0.0644,
+      "valence": 0.734,
+      "tempo": 88.243,
+      "type": "audio_features",
+      "uri": "spotify:track:6xQ8drnnljrgBscmT5ZqBw",
+      "track_href": "https://api.spotify.com/v1/tracks/6xQ8drnnljrgBscmT5ZqBw",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6xQ8drnnljrgBscmT5ZqBw",
+      "duration_ms": 275200,
+      "time_signature": 4
+    },
+    {
+      "id": "0cPlfw88XZsOmt03zcPOtz",
+      "name": "Essaywhuman?!!!??!",
+      "href": "https://api.spotify.com/v1/tracks/0cPlfw88XZsOmt03zcPOtz",
+      "artists": [
+        {
+          "name": "The Roots"
+        }
+      ],
+      "danceability": 0.49,
+      "energy": 0.766,
+      "key": 1,
+      "loudness": -6.055,
+      "mode": 1,
+      "speechiness": 0.34,
+      "acousticness": 0.0324,
+      "instrumentalness": 0.000275,
+      "liveness": 0.336,
+      "valence": 0.655,
+      "tempo": 173.973,
+      "type": "audio_features",
+      "uri": "spotify:track:0cPlfw88XZsOmt03zcPOtz",
+      "track_href": "https://api.spotify.com/v1/tracks/0cPlfw88XZsOmt03zcPOtz",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0cPlfw88XZsOmt03zcPOtz",
+      "duration_ms": 299840,
+      "time_signature": 3
+    },
+    {
+      "id": "61g7oQKm8DFEL7r2g9LS8x",
+      "previewUrl": "https://p.scdn.co/mp3-preview/499f5d8058fc4ac3466ed957b6be018f85a682aa?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Migration",
+      "href": "https://api.spotify.com/v1/tracks/61g7oQKm8DFEL7r2g9LS8x",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.561,
+      "energy": 0.565,
+      "key": 1,
+      "loudness": -12.374,
+      "mode": 1,
+      "speechiness": 0.0373,
+      "acousticness": 0.763,
+      "instrumentalness": 0.948,
+      "liveness": 0.166,
+      "valence": 0.0392,
+      "tempo": 122.072,
+      "type": "audio_features",
+      "uri": "spotify:track:61g7oQKm8DFEL7r2g9LS8x",
+      "track_href": "https://api.spotify.com/v1/tracks/61g7oQKm8DFEL7r2g9LS8x",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/61g7oQKm8DFEL7r2g9LS8x",
+      "duration_ms": 327400,
+      "time_signature": 4
+    },
+    {
+      "id": "6BbFwwHnzY74a8GOsDg8Sn",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c9427ab22c1715ed9fa29e15801cfab49cfe7bfd?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Outlier",
+      "href": "https://api.spotify.com/v1/tracks/6BbFwwHnzY74a8GOsDg8Sn",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.693,
+      "energy": 0.59,
+      "key": 4,
+      "loudness": -7.232,
+      "mode": 0,
+      "speechiness": 0.0464,
+      "acousticness": 0.23,
+      "instrumentalness": 0.834,
+      "liveness": 0.0685,
+      "valence": 0.237,
+      "tempo": 117.006,
+      "type": "audio_features",
+      "uri": "spotify:track:6BbFwwHnzY74a8GOsDg8Sn",
+      "track_href": "https://api.spotify.com/v1/tracks/6BbFwwHnzY74a8GOsDg8Sn",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6BbFwwHnzY74a8GOsDg8Sn",
+      "duration_ms": 475480,
+      "time_signature": 4
+    },
+    {
+      "id": "0f3G1ecfRIffW1qhQt1lEG",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7c9ea8c12fbe322c54745668e3b493954b22587a?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Grains",
+      "href": "https://api.spotify.com/v1/tracks/0f3G1ecfRIffW1qhQt1lEG",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.441,
+      "energy": 0.423,
+      "key": 6,
+      "loudness": -9.435,
+      "mode": 0,
+      "speechiness": 0.0369,
+      "acousticness": 0.837,
+      "instrumentalness": 0.966,
+      "liveness": 0.0924,
+      "valence": 0.159,
+      "tempo": 124.962,
+      "type": "audio_features",
+      "uri": "spotify:track:0f3G1ecfRIffW1qhQt1lEG",
+      "track_href": "https://api.spotify.com/v1/tracks/0f3G1ecfRIffW1qhQt1lEG",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0f3G1ecfRIffW1qhQt1lEG",
+      "duration_ms": 268893,
+      "time_signature": 4
+    },
+    {
+      "id": "5EGJ7e7frJjYja6H4afzoT",
+      "previewUrl": "https://p.scdn.co/mp3-preview/59845831f6011f3ec14959199c2d9ba6a3fd769f?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Bambro Koyo Ganda",
+      "href": "https://api.spotify.com/v1/tracks/5EGJ7e7frJjYja6H4afzoT",
+      "artists": [
+        {
+          "name": "Bonobo"
+        },
+        {
+          "name": "Innov Gnawa"
+        }
+      ],
+      "danceability": 0.723,
+      "energy": 0.571,
+      "key": 1,
+      "loudness": -10.22,
+      "mode": 1,
+      "speechiness": 0.0572,
+      "acousticness": 0.21,
+      "instrumentalness": 0.334,
+      "liveness": 0.133,
+      "valence": 0.185,
+      "tempo": 115.518,
+      "type": "audio_features",
+      "uri": "spotify:track:5EGJ7e7frJjYja6H4afzoT",
+      "track_href": "https://api.spotify.com/v1/tracks/5EGJ7e7frJjYja6H4afzoT",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5EGJ7e7frJjYja6H4afzoT",
+      "duration_ms": 302428,
+      "time_signature": 4
+    },
+    {
+      "id": "16ikmfoT1249gG3pzPvnYt",
+      "previewUrl": "https://p.scdn.co/mp3-preview/25d75fb00fe4a45a86c558e8cf597e00f93e0215?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Second Sun",
+      "href": "https://api.spotify.com/v1/tracks/16ikmfoT1249gG3pzPvnYt",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.378,
+      "energy": 0.178,
+      "key": 6,
+      "loudness": -15.348,
+      "mode": 0,
+      "speechiness": 0.0303,
+      "acousticness": 0.958,
+      "instrumentalness": 0.802,
+      "liveness": 0.11,
+      "valence": 0.0591,
+      "tempo": 77.263,
+      "type": "audio_features",
+      "uri": "spotify:track:16ikmfoT1249gG3pzPvnYt",
+      "track_href": "https://api.spotify.com/v1/tracks/16ikmfoT1249gG3pzPvnYt",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/16ikmfoT1249gG3pzPvnYt",
+      "duration_ms": 223720,
+      "time_signature": 4
+    },
+    {
+      "id": "15IVKRhTPXp4lKtwl568KS",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4315e9640bb6effce8ef0e066d59a9cc8f2258e9?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Surface",
+      "href": "https://api.spotify.com/v1/tracks/15IVKRhTPXp4lKtwl568KS",
+      "artists": [
+        {
+          "name": "Bonobo"
+        },
+        {
+          "name": "Nicole Miglis"
+        }
+      ],
+      "danceability": 0.559,
+      "energy": 0.613,
+      "key": 3,
+      "loudness": -7.891,
+      "mode": 0,
+      "speechiness": 0.0343,
+      "acousticness": 0.231,
+      "instrumentalness": 0.00000347,
+      "liveness": 0.0742,
+      "valence": 0.213,
+      "tempo": 109.947,
+      "type": "audio_features",
+      "uri": "spotify:track:15IVKRhTPXp4lKtwl568KS",
+      "track_href": "https://api.spotify.com/v1/tracks/15IVKRhTPXp4lKtwl568KS",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/15IVKRhTPXp4lKtwl568KS",
+      "duration_ms": 251172,
+      "time_signature": 4
+    },
+    {
+      "id": "5DAjrJqXqYtgr67pVhmUeR",
+      "previewUrl": "https://p.scdn.co/mp3-preview/daf3cfc5f503a37c84daa3ea63dec82bb42460e3?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Kerala",
+      "href": "https://api.spotify.com/v1/tracks/5DAjrJqXqYtgr67pVhmUeR",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.529,
+      "energy": 0.739,
+      "key": 7,
+      "loudness": -9.578,
+      "mode": 0,
+      "speechiness": 0.0718,
+      "acousticness": 0.0237,
+      "instrumentalness": 0.607,
+      "liveness": 0.171,
+      "valence": 0.138,
+      "tempo": 124.75,
+      "type": "audio_features",
+      "uri": "spotify:track:5DAjrJqXqYtgr67pVhmUeR",
+      "track_href": "https://api.spotify.com/v1/tracks/5DAjrJqXqYtgr67pVhmUeR",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5DAjrJqXqYtgr67pVhmUeR",
+      "duration_ms": 237547,
+      "time_signature": 4
+    },
+    {
+      "id": "4GroumsjzAcgCwJzTGY7px",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7371189f27197ae470d0363e72dec226d2b0ecf9?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Ontario",
+      "href": "https://api.spotify.com/v1/tracks/4GroumsjzAcgCwJzTGY7px",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.54,
+      "energy": 0.461,
+      "key": 10,
+      "loudness": -9.427,
+      "mode": 0,
+      "speechiness": 0.0341,
+      "acousticness": 0.236,
+      "instrumentalness": 0.531,
+      "liveness": 0.0865,
+      "valence": 0.107,
+      "tempo": 89.995,
+      "type": "audio_features",
+      "uri": "spotify:track:4GroumsjzAcgCwJzTGY7px",
+      "track_href": "https://api.spotify.com/v1/tracks/4GroumsjzAcgCwJzTGY7px",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4GroumsjzAcgCwJzTGY7px",
+      "duration_ms": 232550,
+      "time_signature": 4
+    },
+    {
+      "id": "3aWPdd6U1xbsIEGEpUaPyQ",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4a64de18d94ebe10b6a3678c787a4c5317dbbaf4?cid=6b58815e509940539428705cce2b1d14",
+      "name": "No Reason",
+      "href": "https://api.spotify.com/v1/tracks/3aWPdd6U1xbsIEGEpUaPyQ",
+      "artists": [
+        {
+          "name": "Bonobo"
+        },
+        {
+          "name": "Nick Murphy"
+        }
+      ],
+      "danceability": 0.656,
+      "energy": 0.589,
+      "key": 5,
+      "loudness": -12.332,
+      "mode": 0,
+      "speechiness": 0.0493,
+      "acousticness": 0.321,
+      "instrumentalness": 0.532,
+      "liveness": 0.104,
+      "valence": 0.155,
+      "tempo": 121.003,
+      "type": "audio_features",
+      "uri": "spotify:track:3aWPdd6U1xbsIEGEpUaPyQ",
+      "track_href": "https://api.spotify.com/v1/tracks/3aWPdd6U1xbsIEGEpUaPyQ",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3aWPdd6U1xbsIEGEpUaPyQ",
+      "duration_ms": 448984,
+      "time_signature": 4
+    },
+    {
+      "id": "3AW6V6zWH45jI7eNPnSDfT",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a9d56071f23a86a5103a424518005131a8be5636?cid=6b58815e509940539428705cce2b1d14",
+      "name": "7th Sevens",
+      "href": "https://api.spotify.com/v1/tracks/3AW6V6zWH45jI7eNPnSDfT",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.656,
+      "energy": 0.653,
+      "key": 6,
+      "loudness": -11.883,
+      "mode": 0,
+      "speechiness": 0.0396,
+      "acousticness": 0.0281,
+      "instrumentalness": 0.858,
+      "liveness": 0.112,
+      "valence": 0.199,
+      "tempo": 117.999,
+      "type": "audio_features",
+      "uri": "spotify:track:3AW6V6zWH45jI7eNPnSDfT",
+      "track_href": "https://api.spotify.com/v1/tracks/3AW6V6zWH45jI7eNPnSDfT",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3AW6V6zWH45jI7eNPnSDfT",
+      "duration_ms": 307328,
+      "time_signature": 4
+    },
+    {
+      "id": "4MSKGtnxTdqIypqwTDY3em",
+      "previewUrl": "https://p.scdn.co/mp3-preview/24d906dd9949e48211089c66491c0a59f790b727?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Figures",
+      "href": "https://api.spotify.com/v1/tracks/4MSKGtnxTdqIypqwTDY3em",
+      "artists": [
+        {
+          "name": "Bonobo"
+        }
+      ],
+      "danceability": 0.296,
+      "energy": 0.4,
+      "key": 10,
+      "loudness": -11.609,
+      "mode": 0,
+      "speechiness": 0.0462,
+      "acousticness": 0.564,
+      "instrumentalness": 0.13,
+      "liveness": 0.116,
+      "valence": 0.184,
+      "tempo": 88.857,
+      "type": "audio_features",
+      "uri": "spotify:track:4MSKGtnxTdqIypqwTDY3em",
+      "track_href": "https://api.spotify.com/v1/tracks/4MSKGtnxTdqIypqwTDY3em",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4MSKGtnxTdqIypqwTDY3em",
+      "duration_ms": 368237,
+      "time_signature": 3
+    },
+    {
+      "id": "2pYvd6cHcAIMAM6xMD6nok",
+      "previewUrl": "https://p.scdn.co/mp3-preview/285a7ede10711f47bda4a6b18e322ee6604e5fee?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Break Apart",
+      "href": "https://api.spotify.com/v1/tracks/2pYvd6cHcAIMAM6xMD6nok",
+      "artists": [
+        {
+          "name": "Bonobo"
+        },
+        {
+          "name": "Rhye"
+        }
+      ],
+      "danceability": 0.648,
+      "energy": 0.458,
+      "key": 5,
+      "loudness": -15.169,
+      "mode": 1,
+      "speechiness": 0.0311,
+      "acousticness": 0.864,
+      "instrumentalness": 0.0944,
+      "liveness": 0.366,
+      "valence": 0.0848,
+      "tempo": 119.96,
+      "type": "audio_features",
+      "uri": "spotify:track:2pYvd6cHcAIMAM6xMD6nok",
+      "track_href": "https://api.spotify.com/v1/tracks/2pYvd6cHcAIMAM6xMD6nok",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2pYvd6cHcAIMAM6xMD6nok",
+      "duration_ms": 274693,
+      "time_signature": 4
+    },
+    {
+      "id": "0atNheZuMnQDtTnJOzd96N",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2c96c2e4ac480d330e55d04f714079b0d060f834?cid=6b58815e509940539428705cce2b1d14",
+      "name": "A Hymn",
+      "href": "https://api.spotify.com/v1/tracks/0atNheZuMnQDtTnJOzd96N",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.505,
+      "energy": 0.609,
+      "key": 7,
+      "loudness": -8.576,
+      "mode": 1,
+      "speechiness": 0.0332,
+      "acousticness": 0.0292,
+      "instrumentalness": 0.365,
+      "liveness": 0.112,
+      "valence": 0.0372,
+      "tempo": 101.028,
+      "type": "audio_features",
+      "uri": "spotify:track:0atNheZuMnQDtTnJOzd96N",
+      "track_href": "https://api.spotify.com/v1/tracks/0atNheZuMnQDtTnJOzd96N",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0atNheZuMnQDtTnJOzd96N",
+      "duration_ms": 318694,
+      "time_signature": 4
+    },
+    {
+      "id": "1ya7LkF84nGse2JSoKAVrC",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0cc3965b12a2b58c4ea43f92a901f2ca97298419?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Danke",
+      "href": "https://api.spotify.com/v1/tracks/1ya7LkF84nGse2JSoKAVrC",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.4,
+      "energy": 0.932,
+      "key": 1,
+      "loudness": -4.032,
+      "mode": 0,
+      "speechiness": 0.0489,
+      "acousticness": 0.0000298,
+      "instrumentalness": 0.553,
+      "liveness": 0.241,
+      "valence": 0.288,
+      "tempo": 108.09,
+      "type": "audio_features",
+      "uri": "spotify:track:1ya7LkF84nGse2JSoKAVrC",
+      "track_href": "https://api.spotify.com/v1/tracks/1ya7LkF84nGse2JSoKAVrC",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1ya7LkF84nGse2JSoKAVrC",
+      "duration_ms": 214278,
+      "time_signature": 4
+    },
+    {
+      "id": "6FtnoX7kvGghvhmXrWstx2",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1de845690a28a7429ab933aae826e81a639a9b69?cid=6b58815e509940539428705cce2b1d14",
+      "name": "The Lover",
+      "href": "https://api.spotify.com/v1/tracks/6FtnoX7kvGghvhmXrWstx2",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.447,
+      "energy": 0.858,
+      "key": 11,
+      "loudness": -4.877,
+      "mode": 1,
+      "speechiness": 0.0589,
+      "acousticness": 0.000196,
+      "instrumentalness": 0.00000961,
+      "liveness": 0.115,
+      "valence": 0.202,
+      "tempo": 124.164,
+      "type": "audio_features",
+      "uri": "spotify:track:6FtnoX7kvGghvhmXrWstx2",
+      "track_href": "https://api.spotify.com/v1/tracks/6FtnoX7kvGghvhmXrWstx2",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6FtnoX7kvGghvhmXrWstx2",
+      "duration_ms": 196994,
+      "time_signature": 4
+    },
+    {
+      "id": "6xJV8Z5jYkETwIe610SlPW",
+      "previewUrl": "https://p.scdn.co/mp3-preview/fdb6947c5e40c18f86096dba97ea8f104be2b1a4?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Reigns",
+      "href": "https://api.spotify.com/v1/tracks/6xJV8Z5jYkETwIe610SlPW",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.434,
+      "energy": 0.717,
+      "key": 7,
+      "loudness": -1.264,
+      "mode": 1,
+      "speechiness": 0.107,
+      "acousticness": 0.000132,
+      "instrumentalness": 0,
+      "liveness": 0.0705,
+      "valence": 0.151,
+      "tempo": 135.537,
+      "type": "audio_features",
+      "uri": "spotify:track:6xJV8Z5jYkETwIe610SlPW",
+      "track_href": "https://api.spotify.com/v1/tracks/6xJV8Z5jYkETwIe610SlPW",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6xJV8Z5jYkETwIe610SlPW",
+      "duration_ms": 242642,
+      "time_signature": 4
+    },
+    {
+      "id": "39OoMmnzRnoDBgunkGOcN0",
+      "previewUrl": "https://p.scdn.co/mp3-preview/adc69662e118fe736bf674928357ea06cabb392c?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Carcinogenic",
+      "href": "https://api.spotify.com/v1/tracks/39OoMmnzRnoDBgunkGOcN0",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.375,
+      "energy": 0.86,
+      "key": 2,
+      "loudness": -5.88,
+      "mode": 1,
+      "speechiness": 0.0454,
+      "acousticness": 0.000185,
+      "instrumentalness": 0.0000088,
+      "liveness": 0.241,
+      "valence": 0.24,
+      "tempo": 91.806,
+      "type": "audio_features",
+      "uri": "spotify:track:39OoMmnzRnoDBgunkGOcN0",
+      "track_href": "https://api.spotify.com/v1/tracks/39OoMmnzRnoDBgunkGOcN0",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/39OoMmnzRnoDBgunkGOcN0",
+      "duration_ms": 230252,
+      "time_signature": 4
+    },
+    {
+      "id": "7iUOxgnRl2NUYln5nQXhCw",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e48b45ecd2fa92d2dc7da9448c0f9614ee196b9d?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Ne Touche Pas Moi",
+      "href": "https://api.spotify.com/v1/tracks/7iUOxgnRl2NUYln5nQXhCw",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.527,
+      "energy": 0.973,
+      "key": 11,
+      "loudness": -2.96,
+      "mode": 0,
+      "speechiness": 0.0498,
+      "acousticness": 0.000214,
+      "instrumentalness": 0,
+      "liveness": 0.455,
+      "valence": 0.61,
+      "tempo": 91.047,
+      "type": "audio_features",
+      "uri": "spotify:track:7iUOxgnRl2NUYln5nQXhCw",
+      "track_href": "https://api.spotify.com/v1/tracks/7iUOxgnRl2NUYln5nQXhCw",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/7iUOxgnRl2NUYln5nQXhCw",
+      "duration_ms": 153661,
+      "time_signature": 4
+    },
+    {
+      "id": "5Xr8dO5ALeh0r2LQv9kL8H",
+      "previewUrl": "https://p.scdn.co/mp3-preview/dbffec5aa8a4b7ad12cd9bbbc3b4ad2a6142ba32?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Model Village",
+      "href": "https://api.spotify.com/v1/tracks/5Xr8dO5ALeh0r2LQv9kL8H",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.473,
+      "energy": 0.955,
+      "key": 6,
+      "loudness": -3.075,
+      "mode": 0,
+      "speechiness": 0.0593,
+      "acousticness": 0.00308,
+      "instrumentalness": 0,
+      "liveness": 0.0923,
+      "valence": 0.498,
+      "tempo": 91.44,
+      "type": "audio_features",
+      "uri": "spotify:track:5Xr8dO5ALeh0r2LQv9kL8H",
+      "track_href": "https://api.spotify.com/v1/tracks/5Xr8dO5ALeh0r2LQv9kL8H",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5Xr8dO5ALeh0r2LQv9kL8H",
+      "duration_ms": 234878,
+      "time_signature": 4
+    },
+    {
+      "id": "67tybpBeEdUuHKnsZBR5FE",
+      "previewUrl": "https://p.scdn.co/mp3-preview/118ffe4ca44d47c69b75a8661f5e09bbae179485?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Kill Them With Kindness",
+      "href": "https://api.spotify.com/v1/tracks/67tybpBeEdUuHKnsZBR5FE",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.626,
+      "energy": 0.867,
+      "key": 10,
+      "loudness": -4.889,
+      "mode": 1,
+      "speechiness": 0.0861,
+      "acousticness": 0.000768,
+      "instrumentalness": 0.000299,
+      "liveness": 0.517,
+      "valence": 0.206,
+      "tempo": 123.867,
+      "type": "audio_features",
+      "uri": "spotify:track:67tybpBeEdUuHKnsZBR5FE",
+      "track_href": "https://api.spotify.com/v1/tracks/67tybpBeEdUuHKnsZBR5FE",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/67tybpBeEdUuHKnsZBR5FE",
+      "duration_ms": 229579,
+      "time_signature": 4
+    },
+    {
+      "id": "39vG98RaRD15ipI7sImKID",
+      "previewUrl": "https://p.scdn.co/mp3-preview/9d5dd745b95da03b1fb076d0660a06c2d9cf122a?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Mr. Motivator",
+      "href": "https://api.spotify.com/v1/tracks/39vG98RaRD15ipI7sImKID",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.259,
+      "energy": 0.881,
+      "key": 2,
+      "loudness": -3.55,
+      "mode": 1,
+      "speechiness": 0.0618,
+      "acousticness": 0.000158,
+      "instrumentalness": 0.00000612,
+      "liveness": 0.171,
+      "valence": 0.387,
+      "tempo": 163.612,
+      "type": "audio_features",
+      "uri": "spotify:track:39vG98RaRD15ipI7sImKID",
+      "track_href": "https://api.spotify.com/v1/tracks/39vG98RaRD15ipI7sImKID",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/39vG98RaRD15ipI7sImKID",
+      "duration_ms": 195568,
+      "time_signature": 4
+    },
+    {
+      "id": "51js1dExwInVO163gghEHn",
+      "previewUrl": "https://p.scdn.co/mp3-preview/9d7beddc1a8f41d629e8f1dd84a72b6d78ad4268?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Anxiety",
+      "href": "https://api.spotify.com/v1/tracks/51js1dExwInVO163gghEHn",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.199,
+      "energy": 0.977,
+      "key": 11,
+      "loudness": -3.229,
+      "mode": 0,
+      "speechiness": 0.0621,
+      "acousticness": 0.000132,
+      "instrumentalness": 0.00192,
+      "liveness": 0.256,
+      "valence": 0.312,
+      "tempo": 170.122,
+      "type": "audio_features",
+      "uri": "spotify:track:51js1dExwInVO163gghEHn",
+      "track_href": "https://api.spotify.com/v1/tracks/51js1dExwInVO163gghEHn",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/51js1dExwInVO163gghEHn",
+      "duration_ms": 179837,
+      "time_signature": 4
+    },
+    {
+      "id": "6jYxxjpNcjglJbAyoxdNQO",
+      "previewUrl": "https://p.scdn.co/mp3-preview/40f7099bc619fd83125993a8342cb5233cc9f271?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Grounds",
+      "href": "https://api.spotify.com/v1/tracks/6jYxxjpNcjglJbAyoxdNQO",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.571,
+      "energy": 0.537,
+      "key": 7,
+      "loudness": -6.25,
+      "mode": 0,
+      "speechiness": 0.0681,
+      "acousticness": 0.00627,
+      "instrumentalness": 0,
+      "liveness": 0.314,
+      "valence": 0.476,
+      "tempo": 100.891,
+      "type": "audio_features",
+      "uri": "spotify:track:6jYxxjpNcjglJbAyoxdNQO",
+      "track_href": "https://api.spotify.com/v1/tracks/6jYxxjpNcjglJbAyoxdNQO",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6jYxxjpNcjglJbAyoxdNQO",
+      "duration_ms": 188716,
+      "time_signature": 4
+    },
+    {
+      "id": "2kYn0VPQY1iTY3XpCvUaPt",
+      "previewUrl": "https://p.scdn.co/mp3-preview/3c2f44e821058af5a0c7481f1591d697c48ce310?cid=6b58815e509940539428705cce2b1d14",
+      "name": "War",
+      "href": "https://api.spotify.com/v1/tracks/2kYn0VPQY1iTY3XpCvUaPt",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.407,
+      "energy": 0.956,
+      "key": 0,
+      "loudness": -3.335,
+      "mode": 0,
+      "speechiness": 0.057,
+      "acousticness": 0.0000346,
+      "instrumentalness": 0.000822,
+      "liveness": 0.0593,
+      "valence": 0.22,
+      "tempo": 94.032,
+      "type": "audio_features",
+      "uri": "spotify:track:2kYn0VPQY1iTY3XpCvUaPt",
+      "track_href": "https://api.spotify.com/v1/tracks/2kYn0VPQY1iTY3XpCvUaPt",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2kYn0VPQY1iTY3XpCvUaPt",
+      "duration_ms": 187451,
+      "time_signature": 4
+    },
+    {
+      "id": "2Sr7PTAZ6sduftEa8fwHna",
+      "previewUrl": "https://p.scdn.co/mp3-preview/68ecdd97e4a1344df61342c3cf5fd50fd7e516a8?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Winnie (end of me)",
+      "href": "https://api.spotify.com/v1/tracks/2Sr7PTAZ6sduftEa8fwHna",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.496,
+      "energy": 0.378,
+      "key": 0,
+      "loudness": -10.967,
+      "mode": 1,
+      "speechiness": 0.0354,
+      "acousticness": 0.917,
+      "instrumentalness": 0.00513,
+      "liveness": 0.439,
+      "valence": 0.297,
+      "tempo": 127.679,
+      "type": "audio_features",
+      "uri": "spotify:track:2Sr7PTAZ6sduftEa8fwHna",
+      "track_href": "https://api.spotify.com/v1/tracks/2Sr7PTAZ6sduftEa8fwHna",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2Sr7PTAZ6sduftEa8fwHna",
+      "duration_ms": 242625,
+      "time_signature": 4
+    },
+    {
+      "id": "5R5u1h0pGvtzC9tyXNzhhp",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0efc3a852fcd9c51e0fa21cd8725264d629f2a08?cid=6b58815e509940539428705cce2b1d14",
+      "name": "September 9th 2022",
+      "href": "https://api.spotify.com/v1/tracks/5R5u1h0pGvtzC9tyXNzhhp",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ]
+    },
+    {
+      "id": "1halfbhGjFShZwxmnbWE8u",
+      "previewUrl": "https://p.scdn.co/mp3-preview/67274628953308b3fe2aaa16402d570f216e1e40?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Clara (the night is dark)",
+      "href": "https://api.spotify.com/v1/tracks/1halfbhGjFShZwxmnbWE8u",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Clara Ward"
+        }
+      ],
+      "danceability": 0.585,
+      "energy": 0.868,
+      "key": 8,
+      "loudness": -7.855,
+      "mode": 0,
+      "speechiness": 0.0393,
+      "acousticness": 0.0482,
+      "instrumentalness": 0.138,
+      "liveness": 0.288,
+      "valence": 0.531,
+      "tempo": 125.011,
+      "type": "audio_features",
+      "uri": "spotify:track:1halfbhGjFShZwxmnbWE8u",
+      "track_href": "https://api.spotify.com/v1/tracks/1halfbhGjFShZwxmnbWE8u",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1halfbhGjFShZwxmnbWE8u",
+      "duration_ms": 278400,
+      "time_signature": 4
+    },
+    {
+      "id": "3fVFXcRvNI7Xm8ZT0uWFb4",
+      "previewUrl": "https://p.scdn.co/mp3-preview/16a068a6262bd530a03249a671aabf3e6a7c0824?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Kelly (end of a nightmare)",
+      "href": "https://api.spotify.com/v1/tracks/3fVFXcRvNI7Xm8ZT0uWFb4",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Wet"
+        }
+      ],
+      "danceability": 0.793,
+      "energy": 0.841,
+      "key": 8,
+      "loudness": -5.646,
+      "mode": 1,
+      "speechiness": 0.0508,
+      "acousticness": 0.349,
+      "instrumentalness": 0.029,
+      "liveness": 0.0962,
+      "valence": 0.153,
+      "tempo": 132.029,
+      "type": "audio_features",
+      "uri": "spotify:track:3fVFXcRvNI7Xm8ZT0uWFb4",
+      "track_href": "https://api.spotify.com/v1/tracks/3fVFXcRvNI7Xm8ZT0uWFb4",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3fVFXcRvNI7Xm8ZT0uWFb4",
+      "duration_ms": 257273,
+      "time_signature": 4
+    },
+    {
+      "id": "4OwXYXg5WCQl8w4W3xYzvK",
+      "previewUrl": "https://p.scdn.co/mp3-preview/bc92a6a8598fe6e0230a2ad3d38bccf53833800f?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Mustafa (time to move you)",
+      "href": "https://api.spotify.com/v1/tracks/4OwXYXg5WCQl8w4W3xYzvK",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.437,
+      "energy": 0.369,
+      "key": 8,
+      "loudness": -14.539,
+      "mode": 0,
+      "speechiness": 0.15,
+      "acousticness": 0.938,
+      "instrumentalness": 0.0304,
+      "liveness": 0.479,
+      "valence": 0.344,
+      "tempo": 129.235,
+      "type": "audio_features",
+      "uri": "spotify:track:4OwXYXg5WCQl8w4W3xYzvK",
+      "track_href": "https://api.spotify.com/v1/tracks/4OwXYXg5WCQl8w4W3xYzvK",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4OwXYXg5WCQl8w4W3xYzvK",
+      "duration_ms": 154547,
+      "time_signature": 4
+    },
+    {
+      "id": "6CoKNa67qyFJmLdSz4DOI8",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0184b615c226a103304dbdd0c4be86981edc12c5?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Nathan (still breathing)",
+      "href": "https://api.spotify.com/v1/tracks/6CoKNa67qyFJmLdSz4DOI8",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Nathan Archie"
+        }
+      ],
+      "danceability": 0.616,
+      "energy": 0.522,
+      "key": 1,
+      "loudness": -8.544,
+      "mode": 1,
+      "speechiness": 0.0687,
+      "acousticness": 0.816,
+      "instrumentalness": 0.00249,
+      "liveness": 0.219,
+      "valence": 0.165,
+      "tempo": 97.977,
+      "type": "audio_features",
+      "uri": "spotify:track:6CoKNa67qyFJmLdSz4DOI8",
+      "track_href": "https://api.spotify.com/v1/tracks/6CoKNa67qyFJmLdSz4DOI8",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6CoKNa67qyFJmLdSz4DOI8",
+      "duration_ms": 163996,
+      "time_signature": 4
+    },
+    {
+      "id": "09Rv6ctDE0t9z8zk5FINg8",
+      "previewUrl": "https://p.scdn.co/mp3-preview/f461b8afcd906408d7e5a0680827237632171198?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Danielle (smile on my face)",
+      "href": "https://api.spotify.com/v1/tracks/09Rv6ctDE0t9z8zk5FINg8",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "070 Shake"
+        }
+      ],
+      "danceability": 0.678,
+      "energy": 0.931,
+      "key": 5,
+      "loudness": -5.813,
+      "mode": 1,
+      "speechiness": 0.0867,
+      "acousticness": 0.00159,
+      "instrumentalness": 0.0275,
+      "liveness": 0.091,
+      "valence": 0.346,
+      "tempo": 130.021,
+      "type": "audio_features",
+      "uri": "spotify:track:09Rv6ctDE0t9z8zk5FINg8",
+      "track_href": "https://api.spotify.com/v1/tracks/09Rv6ctDE0t9z8zk5FINg8",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/09Rv6ctDE0t9z8zk5FINg8",
+      "duration_ms": 201231,
+      "time_signature": 4
+    },
+    {
+      "id": "7c584s9RZQzkJDoC08VDJB",
+      "previewUrl": "https://p.scdn.co/mp3-preview/b47174623d8fa2333ade0f658f0676ae7745baad?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Bleu (better with time)",
+      "href": "https://api.spotify.com/v1/tracks/7c584s9RZQzkJDoC08VDJB",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Yung Bleu"
+        }
+      ],
+      "danceability": 0.705,
+      "energy": 0.685,
+      "key": 8,
+      "loudness": -8.62,
+      "mode": 0,
+      "speechiness": 0.043,
+      "acousticness": 0.409,
+      "instrumentalness": 0.00171,
+      "liveness": 0.14,
+      "valence": 0.313,
+      "tempo": 121.928,
+      "type": "audio_features",
+      "uri": "spotify:track:7c584s9RZQzkJDoC08VDJB",
+      "track_href": "https://api.spotify.com/v1/tracks/7c584s9RZQzkJDoC08VDJB",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/7c584s9RZQzkJDoC08VDJB",
+      "duration_ms": 196965,
+      "time_signature": 4
+    },
+    {
+      "id": "4fw9IsZLZ4IW969ycjpmPy",
+      "previewUrl": "https://p.scdn.co/mp3-preview/22ff80bed26acdaa9caa1cbd5c08698c7a4a87c8?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Berwyn (all that i got is you)",
+      "href": "https://api.spotify.com/v1/tracks/4fw9IsZLZ4IW969ycjpmPy",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "BERWYN"
+        },
+        {
+          "name": "Dermot Kennedy"
+        },
+        {
+          "name": "Guante"
+        }
+      ],
+      "danceability": 0.437,
+      "energy": 0.407,
+      "key": 6,
+      "loudness": -14.377,
+      "mode": 1,
+      "speechiness": 0.302,
+      "acousticness": 0.916,
+      "instrumentalness": 0.653,
+      "liveness": 0.45,
+      "valence": 0.088,
+      "tempo": 126.73,
+      "type": "audio_features",
+      "uri": "spotify:track:4fw9IsZLZ4IW969ycjpmPy",
+      "track_href": "https://api.spotify.com/v1/tracks/4fw9IsZLZ4IW969ycjpmPy",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4fw9IsZLZ4IW969ycjpmPy",
+      "duration_ms": 220562,
+      "time_signature": 4
+    },
+    {
+      "id": "5w9upngVRHNjdZcRC7Xxr2",
+      "previewUrl": "https://p.scdn.co/mp3-preview/46daffb983df603a433183d664ffca99680a5be1?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Delilah (pull me out of this)",
+      "href": "https://api.spotify.com/v1/tracks/5w9upngVRHNjdZcRC7Xxr2",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Delilah Montagu"
+        }
+      ],
+      "danceability": 0.685,
+      "energy": 0.827,
+      "key": 10,
+      "loudness": -7.745,
+      "mode": 1,
+      "speechiness": 0.224,
+      "acousticness": 0.138,
+      "instrumentalness": 0.00207,
+      "liveness": 0.374,
+      "valence": 0.586,
+      "tempo": 133.93,
+      "type": "audio_features",
+      "uri": "spotify:track:5w9upngVRHNjdZcRC7Xxr2",
+      "track_href": "https://api.spotify.com/v1/tracks/5w9upngVRHNjdZcRC7Xxr2",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5w9upngVRHNjdZcRC7Xxr2",
+      "duration_ms": 250702,
+      "time_signature": 4
+    },
+    {
+      "id": "1tOEEEM8DFyZq3CxSHeq5f",
+      "previewUrl": "https://p.scdn.co/mp3-preview/8473d421553ac980a17d163c7eade9c222aa8c40?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Kammy (like i do)",
+      "href": "https://api.spotify.com/v1/tracks/1tOEEEM8DFyZq3CxSHeq5f",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "kamille"
+        }
+      ],
+      "danceability": 0.715,
+      "energy": 0.945,
+      "key": 2,
+      "loudness": -6.464,
+      "mode": 0,
+      "speechiness": 0.0615,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0845,
+      "liveness": 0.268,
+      "valence": 0.599,
+      "tempo": 132.005,
+      "type": "audio_features",
+      "uri": "spotify:track:1tOEEEM8DFyZq3CxSHeq5f",
+      "track_href": "https://api.spotify.com/v1/tracks/1tOEEEM8DFyZq3CxSHeq5f",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1tOEEEM8DFyZq3CxSHeq5f",
+      "duration_ms": 238830,
+      "time_signature": 4
+    },
+    {
+      "id": "53QU4VFO8QZr2m1Srrpar5",
+      "previewUrl": "https://p.scdn.co/mp3-preview/47db4c8b3ab400d52f684f341c39ee84c1c2027c?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Eyelar (shutters)",
+      "href": "https://api.spotify.com/v1/tracks/53QU4VFO8QZr2m1Srrpar5",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Eyelar"
+        }
+      ],
+      "danceability": 0.682,
+      "energy": 0.635,
+      "key": 5,
+      "loudness": -8.928,
+      "mode": 0,
+      "speechiness": 0.141,
+      "acousticness": 0.294,
+      "instrumentalness": 0.778,
+      "liveness": 0.349,
+      "valence": 0.0795,
+      "tempo": 112.03,
+      "type": "audio_features",
+      "uri": "spotify:track:53QU4VFO8QZr2m1Srrpar5",
+      "track_href": "https://api.spotify.com/v1/tracks/53QU4VFO8QZr2m1Srrpar5",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/53QU4VFO8QZr2m1Srrpar5",
+      "duration_ms": 210125,
+      "time_signature": 4
+    },
+    {
+      "id": "5LbLJkX68o7qRmWuX4nE5m",
+      "previewUrl": "https://p.scdn.co/mp3-preview/91a7ed58d8bcea0452bcb14bea7df54e876fe4d1?cid=6b58815e509940539428705cce2b1d14",
+      "name": "January 1st 2022",
+      "href": "https://api.spotify.com/v1/tracks/5LbLJkX68o7qRmWuX4nE5m",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ]
+    },
+    {
+      "id": "6F6ohxrvqe8nLd8jbm1Tbo",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a3d9a2a5e7cd3f0896e94f400c4f148ba9eedf02?cid=6b58815e509940539428705cce2b1d14",
+      "name": "December 17th 2020",
+      "href": "https://api.spotify.com/v1/tracks/6F6ohxrvqe8nLd8jbm1Tbo",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.399,
+      "energy": 0.935,
+      "key": 1,
+      "loudness": -13.091,
+      "mode": 0,
+      "speechiness": 0.273,
+      "acousticness": 0.944,
+      "instrumentalness": 0.000577,
+      "liveness": 0.397,
+      "valence": 0.193,
+      "tempo": 104.07,
+      "type": "audio_features",
+      "uri": "spotify:track:6F6ohxrvqe8nLd8jbm1Tbo",
+      "track_href": "https://api.spotify.com/v1/tracks/6F6ohxrvqe8nLd8jbm1Tbo",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6F6ohxrvqe8nLd8jbm1Tbo",
+      "duration_ms": 21625,
+      "time_signature": 3
+    },
+    {
+      "id": "6fqDgShIxOmfh9eIJwUE7K",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ac0ce353f92cc2bbe0d5cde665e8900ba68c925f?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Angie (interlude)",
+      "href": "https://api.spotify.com/v1/tracks/6fqDgShIxOmfh9eIJwUE7K",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.432,
+      "energy": 0.299,
+      "key": 11,
+      "loudness": -12.736,
+      "mode": 1,
+      "speechiness": 0.0627,
+      "acousticness": 0.913,
+      "instrumentalness": 0.00837,
+      "liveness": 0.103,
+      "valence": 0.0718,
+      "tempo": 111.307,
+      "type": "audio_features",
+      "uri": "spotify:track:6fqDgShIxOmfh9eIJwUE7K",
+      "track_href": "https://api.spotify.com/v1/tracks/6fqDgShIxOmfh9eIJwUE7K",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6fqDgShIxOmfh9eIJwUE7K",
+      "duration_ms": 168306,
+      "time_signature": 1
+    },
+    {
+      "id": "24CoUR3GwPXeWJzGizLzhR",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2722e7ca91e3fa7d9105ef2d72ffd0a003d51623?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Angie (i’ve been lost) [feat. Angie McMahon]",
+      "href": "https://api.spotify.com/v1/tracks/24CoUR3GwPXeWJzGizLzhR",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Angie McMahon"
+        }
+      ],
+      "danceability": 0.72,
+      "energy": 0.888,
+      "key": 11,
+      "loudness": -9.254,
+      "mode": 1,
+      "speechiness": 0.0847,
+      "acousticness": 0.14,
+      "instrumentalness": 0.23,
+      "liveness": 0.0806,
+      "valence": 0.378,
+      "tempo": 131.97,
+      "type": "audio_features",
+      "uri": "spotify:track:24CoUR3GwPXeWJzGizLzhR",
+      "track_href": "https://api.spotify.com/v1/tracks/24CoUR3GwPXeWJzGizLzhR",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/24CoUR3GwPXeWJzGizLzhR",
+      "duration_ms": 285093,
+      "time_signature": 4
+    },
+    {
+      "id": "4pok08MvDsJzOM6kMpWHmc",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c6fec3936985419f0e1b4950a05d6c57e2c38cbc?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Carlos (make it thru)",
+      "href": "https://api.spotify.com/v1/tracks/4pok08MvDsJzOM6kMpWHmc",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.466,
+      "energy": 0.256,
+      "key": 1,
+      "loudness": -11.079,
+      "mode": 0,
+      "speechiness": 0.122,
+      "acousticness": 0.878,
+      "instrumentalness": 0.00000955,
+      "liveness": 0.108,
+      "valence": 0.267,
+      "tempo": 71.103,
+      "type": "audio_features",
+      "uri": "spotify:track:4pok08MvDsJzOM6kMpWHmc",
+      "track_href": "https://api.spotify.com/v1/tracks/4pok08MvDsJzOM6kMpWHmc",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4pok08MvDsJzOM6kMpWHmc",
+      "duration_ms": 203198,
+      "time_signature": 4
+    },
+    {
+      "id": "6zJUp1ihdid6Kn3Ndgcy82",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a34f25feb143909e9590b8640157eb1300bd1223?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Sabrina (i am a party)",
+      "href": "https://api.spotify.com/v1/tracks/6zJUp1ihdid6Kn3Ndgcy82",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.683,
+      "energy": 0.819,
+      "key": 7,
+      "loudness": -7.825,
+      "mode": 1,
+      "speechiness": 0.0517,
+      "acousticness": 0.00826,
+      "instrumentalness": 0.748,
+      "liveness": 0.495,
+      "valence": 0.127,
+      "tempo": 104.012,
+      "type": "audio_features",
+      "uri": "spotify:track:6zJUp1ihdid6Kn3Ndgcy82",
+      "track_href": "https://api.spotify.com/v1/tracks/6zJUp1ihdid6Kn3Ndgcy82",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6zJUp1ihdid6Kn3Ndgcy82",
+      "duration_ms": 199062,
+      "time_signature": 4
+    },
+    {
+      "id": "04yl0gqAhDRZe3MLAncaiD",
+      "previewUrl": "https://p.scdn.co/mp3-preview/3ae159fe88a12cea2786a787f7b47056e49caffd?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Lydia (please make it better)",
+      "href": "https://api.spotify.com/v1/tracks/04yl0gqAhDRZe3MLAncaiD",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.372,
+      "energy": 0.53,
+      "key": 1,
+      "loudness": -9.519,
+      "mode": 1,
+      "speechiness": 0.116,
+      "acousticness": 0.229,
+      "instrumentalness": 0.000954,
+      "liveness": 0.627,
+      "valence": 0.169,
+      "tempo": 136.976,
+      "type": "audio_features",
+      "uri": "spotify:track:04yl0gqAhDRZe3MLAncaiD",
+      "track_href": "https://api.spotify.com/v1/tracks/04yl0gqAhDRZe3MLAncaiD",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/04yl0gqAhDRZe3MLAncaiD",
+      "duration_ms": 187125,
+      "time_signature": 4
+    },
+    {
+      "id": "5Kj9Ora8tvrtIOmnzmHTKc",
+      "previewUrl": "https://p.scdn.co/mp3-preview/cd3d6530b6f1e2b87abfab77b59e5b018afb5baa?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Marnie (wish i had u)",
+      "href": "https://api.spotify.com/v1/tracks/5Kj9Ora8tvrtIOmnzmHTKc",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.621,
+      "energy": 0.866,
+      "key": 5,
+      "loudness": -10.835,
+      "mode": 1,
+      "speechiness": 0.129,
+      "acousticness": 0.0855,
+      "instrumentalness": 0.805,
+      "liveness": 0.109,
+      "valence": 0.062,
+      "tempo": 118.043,
+      "type": "audio_features",
+      "uri": "spotify:track:5Kj9Ora8tvrtIOmnzmHTKc",
+      "track_href": "https://api.spotify.com/v1/tracks/5Kj9Ora8tvrtIOmnzmHTKc",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5Kj9Ora8tvrtIOmnzmHTKc",
+      "duration_ms": 192209,
+      "time_signature": 4
+    },
+    {
+      "id": "3MhbnxA1JnksiATu9xyB2c",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c4b5c3ac286db44afda5812042c60bebade1d7a0?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Me (heavy)",
+      "href": "https://api.spotify.com/v1/tracks/3MhbnxA1JnksiATu9xyB2c",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.736,
+      "energy": 0.252,
+      "key": 4,
+      "loudness": -12.28,
+      "mode": 0,
+      "speechiness": 0.0997,
+      "acousticness": 0.814,
+      "instrumentalness": 0.0168,
+      "liveness": 0.119,
+      "valence": 0.375,
+      "tempo": 150.089,
+      "type": "audio_features",
+      "uri": "spotify:track:3MhbnxA1JnksiATu9xyB2c",
+      "track_href": "https://api.spotify.com/v1/tracks/3MhbnxA1JnksiATu9xyB2c",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3MhbnxA1JnksiATu9xyB2c",
+      "duration_ms": 183231,
+      "time_signature": 4
+    },
+    {
+      "id": "6JyNpOts7liOCjEdqeu2h6",
+      "previewUrl": "https://p.scdn.co/mp3-preview/f2d00c69f56ee7419fb506558235c5ad8523e705?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Big Hen (steal my joy)",
+      "href": "https://api.spotify.com/v1/tracks/6JyNpOts7liOCjEdqeu2h6",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.529,
+      "energy": 0.639,
+      "key": 4,
+      "loudness": -7.52,
+      "mode": 1,
+      "speechiness": 0.17,
+      "acousticness": 0.266,
+      "instrumentalness": 0.00794,
+      "liveness": 0.395,
+      "valence": 0.385,
+      "tempo": 130.656,
+      "type": "audio_features",
+      "uri": "spotify:track:6JyNpOts7liOCjEdqeu2h6",
+      "track_href": "https://api.spotify.com/v1/tracks/6JyNpOts7liOCjEdqeu2h6",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6JyNpOts7liOCjEdqeu2h6",
+      "duration_ms": 263196,
+      "time_signature": 4
+    },
+    {
+      "id": "48KH3eSo2TTVeJ5GIQH5pJ",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1fcbb3117d55df7781b2d0998d6c73d021e4760d?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Adam (interlude)",
+      "href": "https://api.spotify.com/v1/tracks/48KH3eSo2TTVeJ5GIQH5pJ",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.445,
+      "energy": 0.182,
+      "key": 11,
+      "loudness": -17.775,
+      "mode": 0,
+      "speechiness": 0.27,
+      "acousticness": 0.977,
+      "instrumentalness": 0.00073,
+      "liveness": 0.676,
+      "valence": 0.185,
+      "tempo": 54.267,
+      "type": "audio_features",
+      "uri": "spotify:track:48KH3eSo2TTVeJ5GIQH5pJ",
+      "track_href": "https://api.spotify.com/v1/tracks/48KH3eSo2TTVeJ5GIQH5pJ",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/48KH3eSo2TTVeJ5GIQH5pJ",
+      "duration_ms": 105042,
+      "time_signature": 3
+    },
+    {
+      "id": "4obJRBmV1AnO09jj03zIqk",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7c508cf7300c4fe143380f984005b83066533fd0?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Julia (deep diving)",
+      "href": "https://api.spotify.com/v1/tracks/4obJRBmV1AnO09jj03zIqk",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.65,
+      "energy": 0.617,
+      "key": 11,
+      "loudness": -11.864,
+      "mode": 1,
+      "speechiness": 0.137,
+      "acousticness": 0.162,
+      "instrumentalness": 0.328,
+      "liveness": 0.133,
+      "valence": 0.238,
+      "tempo": 128.006,
+      "type": "audio_features",
+      "uri": "spotify:track:4obJRBmV1AnO09jj03zIqk",
+      "track_href": "https://api.spotify.com/v1/tracks/4obJRBmV1AnO09jj03zIqk",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4obJRBmV1AnO09jj03zIqk",
+      "duration_ms": 274204,
+      "time_signature": 4
+    },
+    {
+      "id": "0VuHuQtpOCEDi9uu6GhtEK",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4b564589175c6566404e06bb007a2534edb3b182?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Yasminah (see your face again)",
+      "href": "https://api.spotify.com/v1/tracks/0VuHuQtpOCEDi9uu6GhtEK",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.782,
+      "energy": 0.635,
+      "key": 6,
+      "loudness": -9.382,
+      "mode": 0,
+      "speechiness": 0.122,
+      "acousticness": 0.0416,
+      "instrumentalness": 0.317,
+      "liveness": 0.108,
+      "valence": 0.399,
+      "tempo": 118.074,
+      "type": "audio_features",
+      "uri": "spotify:track:0VuHuQtpOCEDi9uu6GhtEK",
+      "track_href": "https://api.spotify.com/v1/tracks/0VuHuQtpOCEDi9uu6GhtEK",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0VuHuQtpOCEDi9uu6GhtEK",
+      "duration_ms": 184715,
+      "time_signature": 4
+    },
+    {
+      "id": "43LajfnvG9QTQ5VLqNUdHs",
+      "previewUrl": "https://p.scdn.co/mp3-preview/eaad20590069e67295af1727acf124c08006fc73?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Hackney (interlude)",
+      "href": "https://api.spotify.com/v1/tracks/43LajfnvG9QTQ5VLqNUdHs",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ]
+    },
+    {
+      "id": "1zAIRb8mTj8CcAUXW2FoMd",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ea4666edf6488cb287b4c638796cd2d66009e826?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Dermot (see yourself in my eyes)",
+      "href": "https://api.spotify.com/v1/tracks/1zAIRb8mTj8CcAUXW2FoMd",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Dermot Kennedy"
+        }
+      ],
+      "danceability": 0.573,
+      "energy": 0.727,
+      "key": 0,
+      "loudness": -7.616,
+      "mode": 1,
+      "speechiness": 0.0664,
+      "acousticness": 0.132,
+      "instrumentalness": 0.0584,
+      "liveness": 0.192,
+      "valence": 0.22,
+      "tempo": 150.034,
+      "type": "audio_features",
+      "uri": "spotify:track:1zAIRb8mTj8CcAUXW2FoMd",
+      "track_href": "https://api.spotify.com/v1/tracks/1zAIRb8mTj8CcAUXW2FoMd",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1zAIRb8mTj8CcAUXW2FoMd",
+      "duration_ms": 228858,
+      "time_signature": 4
+    },
+    {
+      "id": "6Ao5d7TMQ92h87jQqSHGyw",
+      "previewUrl": "https://p.scdn.co/mp3-preview/015abd43982ff20f457901482218ea5704278638?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Kyle (i found you)",
+      "href": "https://api.spotify.com/v1/tracks/6Ao5d7TMQ92h87jQqSHGyw",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.76,
+      "energy": 0.669,
+      "key": 5,
+      "loudness": -9.105,
+      "mode": 0,
+      "speechiness": 0.285,
+      "acousticness": 0.0757,
+      "instrumentalness": 0.0215,
+      "liveness": 0.77,
+      "valence": 0.215,
+      "tempo": 112.023,
+      "type": "audio_features",
+      "uri": "spotify:track:6Ao5d7TMQ92h87jQqSHGyw",
+      "track_href": "https://api.spotify.com/v1/tracks/6Ao5d7TMQ92h87jQqSHGyw",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6Ao5d7TMQ92h87jQqSHGyw",
+      "duration_ms": 196071,
+      "time_signature": 4
+    },
+    {
+      "id": "6azUQnjmysOi0an0rWzhuB",
+      "previewUrl": "https://p.scdn.co/mp3-preview/49759fd98f0f4fe33828e643ebb727b81f9718ce?cid=6b58815e509940539428705cce2b1d14",
+      "name": "April 14th 2020",
+      "href": "https://api.spotify.com/v1/tracks/6azUQnjmysOi0an0rWzhuB",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.367,
+      "energy": 0.227,
+      "key": 3,
+      "loudness": -19.28,
+      "mode": 1,
+      "speechiness": 0.0892,
+      "acousticness": 0.97,
+      "instrumentalness": 0.000182,
+      "liveness": 0.306,
+      "valence": 0.481,
+      "tempo": 71.436,
+      "type": "audio_features",
+      "uri": "spotify:track:6azUQnjmysOi0an0rWzhuB",
+      "track_href": "https://api.spotify.com/v1/tracks/6azUQnjmysOi0an0rWzhuB",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6azUQnjmysOi0an0rWzhuB",
+      "duration_ms": 40850,
+      "time_signature": 1
+    },
+    {
+      "id": "1nDCD9uIJVy9Eq7lcBiwYW",
+      "previewUrl": "https://p.scdn.co/mp3-preview/8ca4a05bdf5808a402383009ae16a58953f53285?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Me",
+      "href": "https://api.spotify.com/v1/tracks/1nDCD9uIJVy9Eq7lcBiwYW",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.379,
+      "energy": 0.039,
+      "key": 11,
+      "loudness": -33.667,
+      "mode": 1,
+      "speechiness": 0.0517,
+      "acousticness": 0.963,
+      "instrumentalness": 0.861,
+      "liveness": 0.0777,
+      "valence": 0.121,
+      "tempo": 110.957,
+      "type": "audio_features",
+      "uri": "spotify:track:1nDCD9uIJVy9Eq7lcBiwYW",
+      "track_href": "https://api.spotify.com/v1/tracks/1nDCD9uIJVy9Eq7lcBiwYW",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1nDCD9uIJVy9Eq7lcBiwYW",
+      "duration_ms": 151000,
+      "time_signature": 4
+    },
+    {
+      "id": "5ttbmROJ43O2dP5jVjXK0T",
+      "previewUrl": "https://p.scdn.co/mp3-preview/b4ebbf4ab95ee1c68dfb7829e92a1562588d10ee?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Si",
+      "href": "https://api.spotify.com/v1/tracks/5ttbmROJ43O2dP5jVjXK0T",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.367,
+      "energy": 0.00268,
+      "key": 0,
+      "loudness": -26.261,
+      "mode": 1,
+      "speechiness": 0.0418,
+      "acousticness": 0.986,
+      "instrumentalness": 0.927,
+      "liveness": 0.105,
+      "valence": 0.148,
+      "tempo": 79.331,
+      "type": "audio_features",
+      "uri": "spotify:track:5ttbmROJ43O2dP5jVjXK0T",
+      "track_href": "https://api.spotify.com/v1/tracks/5ttbmROJ43O2dP5jVjXK0T",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5ttbmROJ43O2dP5jVjXK0T",
+      "duration_ms": 203469,
+      "time_signature": 5
+    },
+    {
+      "id": "1NxJ99LBnDglWj3BpTdyWD",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a5f663b5bc5d47a177a34f2ada20c375ea0018dd?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Sol",
+      "href": "https://api.spotify.com/v1/tracks/1NxJ99LBnDglWj3BpTdyWD",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.585,
+      "energy": 0.14,
+      "key": 7,
+      "loudness": -19.279,
+      "mode": 0,
+      "speechiness": 0.0534,
+      "acousticness": 0.978,
+      "instrumentalness": 0.928,
+      "liveness": 0.106,
+      "valence": 0.192,
+      "tempo": 112.044,
+      "type": "audio_features",
+      "uri": "spotify:track:1NxJ99LBnDglWj3BpTdyWD",
+      "track_href": "https://api.spotify.com/v1/tracks/1NxJ99LBnDglWj3BpTdyWD",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1NxJ99LBnDglWj3BpTdyWD",
+      "duration_ms": 149875,
+      "time_signature": 4
+    },
+    {
+      "id": "3OjWbbavamAsikThpDy2oP",
+      "previewUrl": "https://p.scdn.co/mp3-preview/59e541ed55c769a4587520b2625e0c5c434d7207?cid=6b58815e509940539428705cce2b1d14",
+      "name": "La",
+      "href": "https://api.spotify.com/v1/tracks/3OjWbbavamAsikThpDy2oP",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.312,
+      "energy": 0.0465,
+      "key": 8,
+      "loudness": -24.748,
+      "mode": 0,
+      "speechiness": 0.068,
+      "acousticness": 0.985,
+      "instrumentalness": 0.857,
+      "liveness": 0.118,
+      "valence": 0.116,
+      "tempo": 40.645,
+      "type": "audio_features",
+      "uri": "spotify:track:3OjWbbavamAsikThpDy2oP",
+      "track_href": "https://api.spotify.com/v1/tracks/3OjWbbavamAsikThpDy2oP",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3OjWbbavamAsikThpDy2oP",
+      "duration_ms": 191031,
+      "time_signature": 3
+    },
+    {
+      "id": "4cdpus6jYvXv9awbbMhghV",
+      "previewUrl": "https://p.scdn.co/mp3-preview/5283549d5c969c6643884c632ab6a7df5614213c?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Fa",
+      "href": "https://api.spotify.com/v1/tracks/4cdpus6jYvXv9awbbMhghV",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.43,
+      "energy": 0.0263,
+      "key": 9,
+      "loudness": -26.28,
+      "mode": 0,
+      "speechiness": 0.0565,
+      "acousticness": 0.993,
+      "instrumentalness": 0.959,
+      "liveness": 0.118,
+      "valence": 0.167,
+      "tempo": 81.841,
+      "type": "audio_features",
+      "uri": "spotify:track:4cdpus6jYvXv9awbbMhghV",
+      "track_href": "https://api.spotify.com/v1/tracks/4cdpus6jYvXv9awbbMhghV",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4cdpus6jYvXv9awbbMhghV",
+      "duration_ms": 145625,
+      "time_signature": 3
+    },
+    {
+      "id": "346d2tSxhrRUpL4bp4xn2b",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0bd4814efc435e175d255d7a0b91d04254888da0?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Re",
+      "href": "https://api.spotify.com/v1/tracks/346d2tSxhrRUpL4bp4xn2b",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.458,
+      "energy": 0.0743,
+      "key": 6,
+      "loudness": -24.145,
+      "mode": 0,
+      "speechiness": 0.0532,
+      "acousticness": 0.993,
+      "instrumentalness": 0.91,
+      "liveness": 0.103,
+      "valence": 0.232,
+      "tempo": 108.93,
+      "type": "audio_features",
+      "uri": "spotify:track:346d2tSxhrRUpL4bp4xn2b",
+      "track_href": "https://api.spotify.com/v1/tracks/346d2tSxhrRUpL4bp4xn2b",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/346d2tSxhrRUpL4bp4xn2b",
+      "duration_ms": 230125,
+      "time_signature": 3
+    },
+    {
+      "id": "45sKSJLWZPj84fHLtEUHot",
+      "previewUrl": "https://p.scdn.co/mp3-preview/22101b9b817d41b9782e6dccbf8d355b3c2ac380?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Mi",
+      "href": "https://api.spotify.com/v1/tracks/45sKSJLWZPj84fHLtEUHot",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.407,
+      "energy": 0.125,
+      "key": 5,
+      "loudness": -21.357,
+      "mode": 1,
+      "speechiness": 0.0544,
+      "acousticness": 0.98,
+      "instrumentalness": 0.915,
+      "liveness": 0.107,
+      "valence": 0.364,
+      "tempo": 96.549,
+      "type": "audio_features",
+      "uri": "spotify:track:45sKSJLWZPj84fHLtEUHot",
+      "track_href": "https://api.spotify.com/v1/tracks/45sKSJLWZPj84fHLtEUHot",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/45sKSJLWZPj84fHLtEUHot",
+      "duration_ms": 239563,
+      "time_signature": 3
+    },
+    {
+      "id": "3LAqlsucNdQnRARPxCK7Bm",
+      "previewUrl": "https://p.scdn.co/mp3-preview/9077f15367dcb8e415ef016830c5ffb342fb916d?cid=6b58815e509940539428705cce2b1d14",
+      "name": "You",
+      "href": "https://api.spotify.com/v1/tracks/3LAqlsucNdQnRARPxCK7Bm",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.482,
+      "energy": 0.0292,
+      "key": 7,
+      "loudness": -23.76,
+      "mode": 1,
+      "speechiness": 0.0588,
+      "acousticness": 0.991,
+      "instrumentalness": 0.862,
+      "liveness": 0.12,
+      "valence": 0.217,
+      "tempo": 82.897,
+      "type": "audio_features",
+      "uri": "spotify:track:3LAqlsucNdQnRARPxCK7Bm",
+      "track_href": "https://api.spotify.com/v1/tracks/3LAqlsucNdQnRARPxCK7Bm",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3LAqlsucNdQnRARPxCK7Bm",
+      "duration_ms": 186711,
+      "time_signature": 3
+    },
+    {
+      "id": "5n09HrY2hgQDlUd4zZhbP0",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e835171a2532c573b205ac3456a25d1029a1206b?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Do",
+      "href": "https://api.spotify.com/v1/tracks/5n09HrY2hgQDlUd4zZhbP0",
+      "artists": [
+        {
+          "name": "Nils Frahm"
+        }
+      ],
+      "danceability": 0.431,
+      "energy": 0.0142,
+      "key": 0,
+      "loudness": -27.753,
+      "mode": 1,
+      "speechiness": 0.0426,
+      "acousticness": 0.985,
+      "instrumentalness": 0.955,
+      "liveness": 0.107,
+      "valence": 0.222,
+      "tempo": 80.711,
+      "type": "audio_features",
+      "uri": "spotify:track:5n09HrY2hgQDlUd4zZhbP0",
+      "track_href": "https://api.spotify.com/v1/tracks/5n09HrY2hgQDlUd4zZhbP0",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5n09HrY2hgQDlUd4zZhbP0",
+      "duration_ms": 184906,
+      "time_signature": 4
+    },
+    {
+      "id": "14JQx98YnChYtErCvxOt8X",
+      "previewUrl": "https://p.scdn.co/mp3-preview/46e329c3bd78258289cf688d660520e01b374066?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Gratitude",
+      "href": "https://api.spotify.com/v1/tracks/14JQx98YnChYtErCvxOt8X",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.533,
+      "energy": 0.794,
+      "key": 2,
+      "loudness": -6.635,
+      "mode": 1,
+      "speechiness": 0.0325,
+      "acousticness": 0.0327,
+      "instrumentalness": 0.000231,
+      "liveness": 0.3,
+      "valence": 0.328,
+      "tempo": 85.939,
+      "type": "audio_features",
+      "uri": "spotify:track:14JQx98YnChYtErCvxOt8X",
+      "track_href": "https://api.spotify.com/v1/tracks/14JQx98YnChYtErCvxOt8X",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/14JQx98YnChYtErCvxOt8X",
+      "duration_ms": 221240,
+      "time_signature": 4
+    },
+    {
+      "id": "0G3biWydEg6qbzvrc9IitS",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4157df06df7fb8e5d1f89b92ff657678afa7ced8?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Monolith",
+      "href": "https://api.spotify.com/v1/tracks/0G3biWydEg6qbzvrc9IitS",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.278,
+      "energy": 0.0807,
+      "key": 2,
+      "loudness": -19.413,
+      "mode": 0,
+      "speechiness": 0.0355,
+      "acousticness": 0.862,
+      "instrumentalness": 0.784,
+      "liveness": 0.0998,
+      "valence": 0.0381,
+      "tempo": 185.417,
+      "type": "audio_features",
+      "uri": "spotify:track:0G3biWydEg6qbzvrc9IitS",
+      "track_href": "https://api.spotify.com/v1/tracks/0G3biWydEg6qbzvrc9IitS",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0G3biWydEg6qbzvrc9IitS",
+      "duration_ms": 172707,
+      "time_signature": 3
+    },
+    {
+      "id": "5WdInKMw4cJbL7DmA0UpE9",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0962d897b4683bacf22f015b426d14326c75e1d1?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Jungle",
+      "href": "https://api.spotify.com/v1/tracks/5WdInKMw4cJbL7DmA0UpE9",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.589,
+      "energy": 0.879,
+      "key": 1,
+      "loudness": -7.316,
+      "mode": 0,
+      "speechiness": 0.0384,
+      "acousticness": 0.0667,
+      "instrumentalness": 0.489,
+      "liveness": 0.0865,
+      "valence": 0.142,
+      "tempo": 91.706,
+      "type": "audio_features",
+      "uri": "spotify:track:5WdInKMw4cJbL7DmA0UpE9",
+      "track_href": "https://api.spotify.com/v1/tracks/5WdInKMw4cJbL7DmA0UpE9",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5WdInKMw4cJbL7DmA0UpE9",
+      "duration_ms": 251347,
+      "time_signature": 4
+    },
+    {
+      "id": "0UWLqOtqAd0JRUYgoJBb9w",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4b6a379972d485b21d895fdc6c63516d51fd2511?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Grace",
+      "href": "https://api.spotify.com/v1/tracks/0UWLqOtqAd0JRUYgoJBb9w",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.372,
+      "energy": 0.84,
+      "key": 9,
+      "loudness": -8.956,
+      "mode": 1,
+      "speechiness": 0.0374,
+      "acousticness": 0.241,
+      "instrumentalness": 0.714,
+      "liveness": 0.11,
+      "valence": 0.629,
+      "tempo": 112.998,
+      "type": "audio_features",
+      "uri": "spotify:track:0UWLqOtqAd0JRUYgoJBb9w",
+      "track_href": "https://api.spotify.com/v1/tracks/0UWLqOtqAd0JRUYgoJBb9w",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0UWLqOtqAd0JRUYgoJBb9w",
+      "duration_ms": 233320,
+      "time_signature": 4
+    },
+    {
+      "id": "771CBX3SgJLH2yAmi6E8DV",
+      "previewUrl": "https://p.scdn.co/mp3-preview/15d8be96b80ce313877ea92103f5783144ca6283?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Hall & Oates",
+      "href": "https://api.spotify.com/v1/tracks/771CBX3SgJLH2yAmi6E8DV",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.484,
+      "energy": 0.867,
+      "key": 11,
+      "loudness": -4.657,
+      "mode": 0,
+      "speechiness": 0.106,
+      "acousticness": 0.000789,
+      "instrumentalness": 0.00000441,
+      "liveness": 0.0718,
+      "valence": 0.342,
+      "tempo": 76.418,
+      "type": "audio_features",
+      "uri": "spotify:track:771CBX3SgJLH2yAmi6E8DV",
+      "track_href": "https://api.spotify.com/v1/tracks/771CBX3SgJLH2yAmi6E8DV",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/771CBX3SgJLH2yAmi6E8DV",
+      "duration_ms": 143413,
+      "time_signature": 4
+    },
+    {
+      "id": "5MP8QCjsJQPJ5ApdHMg3dl",
+      "previewUrl": "https://p.scdn.co/mp3-preview/613c6689918eeb8d275c0b17c61e9fd54b4155da?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Dancer",
+      "href": "https://api.spotify.com/v1/tracks/5MP8QCjsJQPJ5ApdHMg3dl",
+      "artists": [
+        {
+          "name": "IDLES"
+        },
+        {
+          "name": "LCD Soundsystem"
+        }
+      ],
+      "danceability": 0.601,
+      "energy": 0.851,
+      "key": 3,
+      "loudness": -6.391,
+      "mode": 0,
+      "speechiness": 0.0424,
+      "acousticness": 0.00798,
+      "instrumentalness": 0.0000284,
+      "liveness": 0.318,
+      "valence": 0.6,
+      "tempo": 141.155,
+      "type": "audio_features",
+      "uri": "spotify:track:5MP8QCjsJQPJ5ApdHMg3dl",
+      "track_href": "https://api.spotify.com/v1/tracks/5MP8QCjsJQPJ5ApdHMg3dl",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5MP8QCjsJQPJ5ApdHMg3dl",
+      "duration_ms": 189493,
+      "time_signature": 4
+    },
+    {
+      "id": "0bWRo1Ez6cr2faTodTVNv4",
+      "previewUrl": "https://p.scdn.co/mp3-preview/25469ed84a8f4649e9425803c0bb4ff57dad654a?cid=6b58815e509940539428705cce2b1d14",
+      "name": "A Gospel",
+      "href": "https://api.spotify.com/v1/tracks/0bWRo1Ez6cr2faTodTVNv4",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.597,
+      "energy": 0.31,
+      "key": 4,
+      "loudness": -12.827,
+      "mode": 0,
+      "speechiness": 0.029,
+      "acousticness": 0.986,
+      "instrumentalness": 0.631,
+      "liveness": 0.114,
+      "valence": 0.181,
+      "tempo": 95.492,
+      "type": "audio_features",
+      "uri": "spotify:track:0bWRo1Ez6cr2faTodTVNv4",
+      "track_href": "https://api.spotify.com/v1/tracks/0bWRo1Ez6cr2faTodTVNv4",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0bWRo1Ez6cr2faTodTVNv4",
+      "duration_ms": 225240,
+      "time_signature": 3
+    },
+    {
+      "id": "7f4azWcTVEDHZ7DSc5eh5a",
+      "previewUrl": "https://p.scdn.co/mp3-preview/6ac2c7948933cbcfb4671f1610871c7c060996c7?cid=6b58815e509940539428705cce2b1d14",
+      "name": "POP POP POP",
+      "href": "https://api.spotify.com/v1/tracks/7f4azWcTVEDHZ7DSc5eh5a",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.724,
+      "energy": 0.728,
+      "key": 10,
+      "loudness": -7.938,
+      "mode": 0,
+      "speechiness": 0.0796,
+      "acousticness": 0.228,
+      "instrumentalness": 0.101,
+      "liveness": 0.282,
+      "valence": 0.175,
+      "tempo": 122.984,
+      "type": "audio_features",
+      "uri": "spotify:track:7f4azWcTVEDHZ7DSc5eh5a",
+      "track_href": "https://api.spotify.com/v1/tracks/7f4azWcTVEDHZ7DSc5eh5a",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/7f4azWcTVEDHZ7DSc5eh5a",
+      "duration_ms": 256573,
+      "time_signature": 4
+    },
+    {
+      "id": "1HJIlcwr027WWiOyatjMJr",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a4e8cf50263c892874c70053aafe3c898bd2c433?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Roy",
+      "href": "https://api.spotify.com/v1/tracks/1HJIlcwr027WWiOyatjMJr",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.699,
+      "energy": 0.655,
+      "key": 2,
+      "loudness": -6.573,
+      "mode": 0,
+      "speechiness": 0.0275,
+      "acousticness": 0.00276,
+      "instrumentalness": 0.366,
+      "liveness": 0.101,
+      "valence": 0.412,
+      "tempo": 103.507,
+      "type": "audio_features",
+      "uri": "spotify:track:1HJIlcwr027WWiOyatjMJr",
+      "track_href": "https://api.spotify.com/v1/tracks/1HJIlcwr027WWiOyatjMJr",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1HJIlcwr027WWiOyatjMJr",
+      "duration_ms": 249853,
+      "time_signature": 3
+    },
+    {
+      "id": "1rv0JLczQyv4fWAxj7gXW7",
+      "previewUrl": "https://p.scdn.co/mp3-preview/003815b0e789e240d328850b9545e83f3679526c?cid=6b58815e509940539428705cce2b1d14",
+      "name": "IDEA 01",
+      "href": "https://api.spotify.com/v1/tracks/1rv0JLczQyv4fWAxj7gXW7",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.358,
+      "energy": 0.419,
+      "key": 0,
+      "loudness": -12.253,
+      "mode": 1,
+      "speechiness": 0.0369,
+      "acousticness": 0.642,
+      "instrumentalness": 0.959,
+      "liveness": 0.106,
+      "valence": 0.133,
+      "tempo": 147.244,
+      "type": "audio_features",
+      "uri": "spotify:track:1rv0JLczQyv4fWAxj7gXW7",
+      "track_href": "https://api.spotify.com/v1/tracks/1rv0JLczQyv4fWAxj7gXW7",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1rv0JLczQyv4fWAxj7gXW7",
+      "duration_ms": 218493,
+      "time_signature": 4
+    },
+    {
+      "id": "67CrKLE8d3Qhm4gcltiKs1",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a6c8b9ead578d7c1a3a1533bc35857dc6cb0db7a?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Gift Horse",
+      "href": "https://api.spotify.com/v1/tracks/67CrKLE8d3Qhm4gcltiKs1",
+      "artists": [
+        {
+          "name": "IDLES"
+        }
+      ],
+      "danceability": 0.666,
+      "energy": 0.838,
+      "key": 5,
+      "loudness": -5.573,
+      "mode": 0,
+      "speechiness": 0.0649,
+      "acousticness": 0.00196,
+      "instrumentalness": 0.228,
+      "liveness": 0.0982,
+      "valence": 0.374,
+      "tempo": 142.999,
+      "type": "audio_features",
+      "uri": "spotify:track:67CrKLE8d3Qhm4gcltiKs1",
+      "track_href": "https://api.spotify.com/v1/tracks/67CrKLE8d3Qhm4gcltiKs1",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/67CrKLE8d3Qhm4gcltiKs1",
+      "duration_ms": 249587,
+      "time_signature": 4
+    },
+    {
+      "id": "61pyjiweMDS1h930OgS0XO",
+      "previewUrl": "https://p.scdn.co/mp3-preview/f14667711679c1f2c09e356ed12f1a1fad7464ac?cid=6b58815e509940539428705cce2b1d14",
+      "name": "backseat",
+      "href": "https://api.spotify.com/v1/tracks/61pyjiweMDS1h930OgS0XO",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "The Japanese House"
+        },
+        {
+          "name": "Scott Hardkiss"
+        }
+      ],
+      "danceability": 0.621,
+      "energy": 0.747,
+      "key": 7,
+      "loudness": -5.976,
+      "mode": 1,
+      "speechiness": 0.041,
+      "acousticness": 0.224,
+      "instrumentalness": 0.0000121,
+      "liveness": 0.0772,
+      "valence": 0.442,
+      "tempo": 119.991,
+      "type": "audio_features",
+      "uri": "spotify:track:61pyjiweMDS1h930OgS0XO",
+      "track_href": "https://api.spotify.com/v1/tracks/61pyjiweMDS1h930OgS0XO",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/61pyjiweMDS1h930OgS0XO",
+      "duration_ms": 314008,
+      "time_signature": 4
+    },
+    {
+      "id": "2feEZkLf7dZUueeVBNsdor",
+      "previewUrl": "https://p.scdn.co/mp3-preview/72d66fa681d50abf590a9cca9553b112fa03c1ee?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".ten",
+      "href": "https://api.spotify.com/v1/tracks/2feEZkLf7dZUueeVBNsdor",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.389,
+      "energy": 0.0788,
+      "key": 5,
+      "loudness": -23.11,
+      "mode": 1,
+      "speechiness": 0.0402,
+      "acousticness": 0.989,
+      "instrumentalness": 0.219,
+      "liveness": 0.0985,
+      "valence": 0.344,
+      "tempo": 81.536,
+      "type": "audio_features",
+      "uri": "spotify:track:2feEZkLf7dZUueeVBNsdor",
+      "track_href": "https://api.spotify.com/v1/tracks/2feEZkLf7dZUueeVBNsdor",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2feEZkLf7dZUueeVBNsdor",
+      "duration_ms": 29540,
+      "time_signature": 3
+    },
+    {
+      "id": "4A8tKYA7gwZzQ4jVwIv1sv",
+      "previewUrl": "https://p.scdn.co/mp3-preview/d333ce79ff70629051c9db4c5850b2b22288df71?cid=6b58815e509940539428705cce2b1d14",
+      "name": "peace u need",
+      "href": "https://api.spotify.com/v1/tracks/4A8tKYA7gwZzQ4jVwIv1sv",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Joy Anonymous"
+        }
+      ],
+      "danceability": 0.608,
+      "energy": 0.651,
+      "key": 0,
+      "loudness": -9.704,
+      "mode": 1,
+      "speechiness": 0.106,
+      "acousticness": 0.0218,
+      "instrumentalness": 0.000405,
+      "liveness": 0.27,
+      "valence": 0.179,
+      "tempo": 120.016,
+      "type": "audio_features",
+      "uri": "spotify:track:4A8tKYA7gwZzQ4jVwIv1sv",
+      "track_href": "https://api.spotify.com/v1/tracks/4A8tKYA7gwZzQ4jVwIv1sv",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4A8tKYA7gwZzQ4jVwIv1sv",
+      "duration_ms": 344069,
+      "time_signature": 4
+    },
+    {
+      "id": "5aNwAqN5Gk5oZIwW5KfhXN",
+      "previewUrl": "https://p.scdn.co/mp3-preview/d444f5f0921bee7a12beff1649a3cf295a822c76?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".nine",
+      "href": "https://api.spotify.com/v1/tracks/5aNwAqN5Gk5oZIwW5KfhXN",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.212,
+      "energy": 0.407,
+      "key": 5,
+      "loudness": -11.836,
+      "mode": 1,
+      "speechiness": 0.0398,
+      "acousticness": 0.221,
+      "instrumentalness": 0.986,
+      "liveness": 0.693,
+      "valence": 0.253,
+      "tempo": 120.51,
+      "type": "audio_features",
+      "uri": "spotify:track:5aNwAqN5Gk5oZIwW5KfhXN",
+      "track_href": "https://api.spotify.com/v1/tracks/5aNwAqN5Gk5oZIwW5KfhXN",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/5aNwAqN5Gk5oZIwW5KfhXN",
+      "duration_ms": 19060,
+      "time_signature": 3
+    },
+    {
+      "id": "4S05mkyTtAiWy5l4umch0X",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c8b398eaced8e21a97b1460480ab58a2c44364dd?cid=6b58815e509940539428705cce2b1d14",
+      "name": "where will i be",
+      "href": "https://api.spotify.com/v1/tracks/4S05mkyTtAiWy5l4umch0X",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Emmylou Harris"
+        }
+      ],
+      "danceability": 0.399,
+      "energy": 0.387,
+      "key": 2,
+      "loudness": -12.594,
+      "mode": 1,
+      "speechiness": 0.0383,
+      "acousticness": 0.949,
+      "instrumentalness": 0.00421,
+      "liveness": 0.211,
+      "valence": 0.279,
+      "tempo": 117.375,
+      "type": "audio_features",
+      "uri": "spotify:track:4S05mkyTtAiWy5l4umch0X",
+      "track_href": "https://api.spotify.com/v1/tracks/4S05mkyTtAiWy5l4umch0X",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4S05mkyTtAiWy5l4umch0X",
+      "duration_ms": 200737,
+      "time_signature": 4
+    },
+    {
+      "id": "3DzWFxyzsAVblVNndiU9CW",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e2b23e98a35b1ccbce037d34c2c38c49b2371142?cid=6b58815e509940539428705cce2b1d14",
+      "name": "i saw you",
+      "href": "https://api.spotify.com/v1/tracks/3DzWFxyzsAVblVNndiU9CW",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.378,
+      "energy": 0.395,
+      "key": 9,
+      "loudness": -9.865,
+      "mode": 1,
+      "speechiness": 0.0459,
+      "acousticness": 0.798,
+      "instrumentalness": 0.251,
+      "liveness": 0.187,
+      "valence": 0.112,
+      "tempo": 197.947,
+      "type": "audio_features",
+      "uri": "spotify:track:3DzWFxyzsAVblVNndiU9CW",
+      "track_href": "https://api.spotify.com/v1/tracks/3DzWFxyzsAVblVNndiU9CW",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3DzWFxyzsAVblVNndiU9CW",
+      "duration_ms": 220657,
+      "time_signature": 4
+    },
+    {
+      "id": "1aTcAf7K1ym8lBcuu8nmJA",
+      "previewUrl": "https://p.scdn.co/mp3-preview/d2910a98ace82ead87c06aad442b0f8104263feb?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".eight",
+      "href": "https://api.spotify.com/v1/tracks/1aTcAf7K1ym8lBcuu8nmJA",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.749,
+      "energy": 0.584,
+      "key": 3,
+      "loudness": -21.953,
+      "mode": 1,
+      "speechiness": 0.596,
+      "acousticness": 0.681,
+      "instrumentalness": 0,
+      "liveness": 0.635,
+      "valence": 0,
+      "tempo": 119.653,
+      "type": "audio_features",
+      "uri": "spotify:track:1aTcAf7K1ym8lBcuu8nmJA",
+      "track_href": "https://api.spotify.com/v1/tracks/1aTcAf7K1ym8lBcuu8nmJA",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1aTcAf7K1ym8lBcuu8nmJA",
+      "duration_ms": 15038,
+      "time_signature": 4
+    },
+    {
+      "id": "3i9QKRl5Ql3pgUfNdYBVTc",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4ddd31cf8fe9f76b8aa72e2a1b5d51ccc9e00e5a?cid=6b58815e509940539428705cce2b1d14",
+      "name": "glow",
+      "href": "https://api.spotify.com/v1/tracks/3i9QKRl5Ql3pgUfNdYBVTc",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Duskus"
+        },
+        {
+          "name": "Four Tet"
+        },
+        {
+          "name": "Joy Anonymous"
+        },
+        {
+          "name": "Skrillex"
+        }
+      ],
+      "danceability": 0.65,
+      "energy": 0.903,
+      "key": 4,
+      "loudness": -5.478,
+      "mode": 1,
+      "speechiness": 0.0436,
+      "acousticness": 0.0655,
+      "instrumentalness": 0.779,
+      "liveness": 0.134,
+      "valence": 0.0681,
+      "tempo": 129.043,
+      "type": "audio_features",
+      "uri": "spotify:track:3i9QKRl5Ql3pgUfNdYBVTc",
+      "track_href": "https://api.spotify.com/v1/tracks/3i9QKRl5Ql3pgUfNdYBVTc",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3i9QKRl5Ql3pgUfNdYBVTc",
+      "duration_ms": 453069,
+      "time_signature": 4
+    },
+    {
+      "id": "2OLH9ukOFDVBMuVUuy2sFW",
+      "previewUrl": "https://p.scdn.co/mp3-preview/cc0e8af8b91eff643b65fefdbc6b32fe2a7ad7db?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".seven",
+      "href": "https://api.spotify.com/v1/tracks/2OLH9ukOFDVBMuVUuy2sFW",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.326,
+      "energy": 0.453,
+      "key": 6,
+      "loudness": -18.236,
+      "mode": 0,
+      "speechiness": 0.0729,
+      "acousticness": 0.914,
+      "instrumentalness": 0,
+      "liveness": 0.242,
+      "valence": 0.507,
+      "tempo": 92.99,
+      "type": "audio_features",
+      "uri": "spotify:track:2OLH9ukOFDVBMuVUuy2sFW",
+      "track_href": "https://api.spotify.com/v1/tracks/2OLH9ukOFDVBMuVUuy2sFW",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2OLH9ukOFDVBMuVUuy2sFW",
+      "duration_ms": 31750,
+      "time_signature": 5
+    },
+    {
+      "id": "1qfJ6OvxrspQTmcvdIEoX6",
+      "previewUrl": "https://p.scdn.co/mp3-preview/5c1c520365bbd3c9e2e84be42d9d70b0ec71ed01?cid=6b58815e509940539428705cce2b1d14",
+      "name": "places to be",
+      "href": "https://api.spotify.com/v1/tracks/1qfJ6OvxrspQTmcvdIEoX6",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Anderson .Paak"
+        },
+        {
+          "name": "CHIKA"
+        }
+      ],
+      "danceability": 0.547,
+      "energy": 0.91,
+      "key": 10,
+      "loudness": -3.723,
+      "mode": 1,
+      "speechiness": 0.0597,
+      "acousticness": 0.00765,
+      "instrumentalness": 0.0182,
+      "liveness": 0.0897,
+      "valence": 0.783,
+      "tempo": 176.009,
+      "type": "audio_features",
+      "uri": "spotify:track:1qfJ6OvxrspQTmcvdIEoX6",
+      "track_href": "https://api.spotify.com/v1/tracks/1qfJ6OvxrspQTmcvdIEoX6",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1qfJ6OvxrspQTmcvdIEoX6",
+      "duration_ms": 224074,
+      "time_signature": 4
+    },
+    {
+      "id": "13H2XgH3k8SEptaoD5qeLG",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e630a09889f8e86bca24bcb54a6448e8c969936f?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".six",
+      "href": "https://api.spotify.com/v1/tracks/13H2XgH3k8SEptaoD5qeLG",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.268,
+      "energy": 0.468,
+      "key": 4,
+      "loudness": -13.395,
+      "mode": 1,
+      "speechiness": 0.059,
+      "acousticness": 0.803,
+      "instrumentalness": 0.922,
+      "liveness": 0.264,
+      "valence": 0.418,
+      "tempo": 201.591,
+      "type": "audio_features",
+      "uri": "spotify:track:13H2XgH3k8SEptaoD5qeLG",
+      "track_href": "https://api.spotify.com/v1/tracks/13H2XgH3k8SEptaoD5qeLG",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/13H2XgH3k8SEptaoD5qeLG",
+      "duration_ms": 28837,
+      "time_signature": 3
+    },
+    {
+      "id": "3vTHKAYJy0hY1OkVv1qLNM",
+      "previewUrl": "https://p.scdn.co/mp3-preview/29846c63d0cf33c05ee69ea92d412a2f473e1604?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".five",
+      "href": "https://api.spotify.com/v1/tracks/3vTHKAYJy0hY1OkVv1qLNM",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.222,
+      "energy": 0.428,
+      "key": 10,
+      "loudness": -11.038,
+      "mode": 0,
+      "speechiness": 0.0504,
+      "acousticness": 0.892,
+      "instrumentalness": 0.756,
+      "liveness": 0.258,
+      "valence": 0.13,
+      "tempo": 174.441,
+      "type": "audio_features",
+      "uri": "spotify:track:3vTHKAYJy0hY1OkVv1qLNM",
+      "track_href": "https://api.spotify.com/v1/tracks/3vTHKAYJy0hY1OkVv1qLNM",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3vTHKAYJy0hY1OkVv1qLNM",
+      "duration_ms": 15255,
+      "time_signature": 5
+    },
+    {
+      "id": "2D9a9CXeo3HFtVeaNlzp4a",
+      "previewUrl": "https://p.scdn.co/mp3-preview/06a95f2285831e3f4848718f5c8c2f7deeafaf80?cid=6b58815e509940539428705cce2b1d14",
+      "name": "just stand there",
+      "href": "https://api.spotify.com/v1/tracks/2D9a9CXeo3HFtVeaNlzp4a",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "SOAK"
+        }
+      ],
+      "danceability": 0.564,
+      "energy": 0.864,
+      "key": 5,
+      "loudness": -7.111,
+      "mode": 1,
+      "speechiness": 0.0506,
+      "acousticness": 0.0278,
+      "instrumentalness": 0.125,
+      "liveness": 0.134,
+      "valence": 0.29,
+      "tempo": 130.023,
+      "type": "audio_features",
+      "uri": "spotify:track:2D9a9CXeo3HFtVeaNlzp4a",
+      "track_href": "https://api.spotify.com/v1/tracks/2D9a9CXeo3HFtVeaNlzp4a",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2D9a9CXeo3HFtVeaNlzp4a",
+      "duration_ms": 260997,
+      "time_signature": 4
+    },
+    {
+      "id": "1wU9pfdw6ht8HKfxz6wMNq",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a4a6f591cb0cf93a7d57df33ad70ac1d8b7db349?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".four",
+      "href": "https://api.spotify.com/v1/tracks/1wU9pfdw6ht8HKfxz6wMNq",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ]
+    },
+    {
+      "id": "4IHblO52meh2jwqES1BA7X",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c0952ae5c7423cc08ca7a53f0f182a6f20586cde?cid=6b58815e509940539428705cce2b1d14",
+      "name": "fear less",
+      "href": "https://api.spotify.com/v1/tracks/4IHblO52meh2jwqES1BA7X",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Sampha"
+        }
+      ],
+      "danceability": 0.631,
+      "energy": 0.677,
+      "key": 4,
+      "loudness": -7.53,
+      "mode": 1,
+      "speechiness": 0.0423,
+      "acousticness": 0.561,
+      "instrumentalness": 0.0882,
+      "liveness": 0.178,
+      "valence": 0.505,
+      "tempo": 111.959,
+      "type": "audio_features",
+      "uri": "spotify:track:4IHblO52meh2jwqES1BA7X",
+      "track_href": "https://api.spotify.com/v1/tracks/4IHblO52meh2jwqES1BA7X",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4IHblO52meh2jwqES1BA7X",
+      "duration_ms": 214469,
+      "time_signature": 4
+    },
+    {
+      "id": "6G7TRmzTt9tnrM0QqSVpJW",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7aeb75b213d74995df23a41d86494834bc801d78?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".three",
+      "href": "https://api.spotify.com/v1/tracks/6G7TRmzTt9tnrM0QqSVpJW",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.35,
+      "energy": 0.161,
+      "key": 5,
+      "loudness": -21.371,
+      "mode": 1,
+      "speechiness": 0.147,
+      "acousticness": 0.714,
+      "instrumentalness": 0.806,
+      "liveness": 0.11,
+      "valence": 0.534,
+      "tempo": 175.808,
+      "type": "audio_features",
+      "uri": "spotify:track:6G7TRmzTt9tnrM0QqSVpJW",
+      "track_href": "https://api.spotify.com/v1/tracks/6G7TRmzTt9tnrM0QqSVpJW",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6G7TRmzTt9tnrM0QqSVpJW",
+      "duration_ms": 15035,
+      "time_signature": 3
+    },
+    {
+      "id": "0lt9clHEwYyheuC9rik9UH",
+      "previewUrl": "https://p.scdn.co/mp3-preview/59a26651d9742fa1856469cf1c0f8c7c55819525?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".two",
+      "href": "https://api.spotify.com/v1/tracks/0lt9clHEwYyheuC9rik9UH",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ]
+    },
+    {
+      "id": "6twB0uYXJYW9t5GHfYaQ3i",
+      "previewUrl": "https://p.scdn.co/mp3-preview/99fc4c0f25e64d30af9e619ea820bed60aa2b1c6?cid=6b58815e509940539428705cce2b1d14",
+      "name": "ten",
+      "href": "https://api.spotify.com/v1/tracks/6twB0uYXJYW9t5GHfYaQ3i",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Jozzy"
+        },
+        {
+          "name": "Jim Legxacy"
+        }
+      ],
+      "danceability": 0.729,
+      "energy": 0.594,
+      "key": 11,
+      "loudness": -8.804,
+      "mode": 0,
+      "speechiness": 0.296,
+      "acousticness": 0.772,
+      "instrumentalness": 0.00213,
+      "liveness": 0.112,
+      "valence": 0.41,
+      "tempo": 128.004,
+      "type": "audio_features",
+      "uri": "spotify:track:6twB0uYXJYW9t5GHfYaQ3i",
+      "track_href": "https://api.spotify.com/v1/tracks/6twB0uYXJYW9t5GHfYaQ3i",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6twB0uYXJYW9t5GHfYaQ3i",
+      "duration_ms": 181545,
+      "time_signature": 4
+    },
+    {
+      "id": "00nDbqJkHBGUFdim9M0xGc",
+      "previewUrl": "https://p.scdn.co/mp3-preview/52224422e178fa35baa9ffbf097372b7031fbecf?cid=6b58815e509940539428705cce2b1d14",
+      "name": ".one",
+      "href": "https://api.spotify.com/v1/tracks/00nDbqJkHBGUFdim9M0xGc",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.465,
+      "energy": 0.223,
+      "key": 10,
+      "loudness": -17.712,
+      "mode": 1,
+      "speechiness": 0.176,
+      "acousticness": 0.974,
+      "instrumentalness": 0.00000155,
+      "liveness": 0.385,
+      "valence": 0.724,
+      "tempo": 118.369,
+      "type": "audio_features",
+      "uri": "spotify:track:00nDbqJkHBGUFdim9M0xGc",
+      "track_href": "https://api.spotify.com/v1/tracks/00nDbqJkHBGUFdim9M0xGc",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/00nDbqJkHBGUFdim9M0xGc",
+      "duration_ms": 30857,
+      "time_signature": 4
+    },
+    {
+      "id": "1rf4SX7dduNbrNnOmupLzi",
+      "previewUrl": "https://p.scdn.co/mp3-preview/49ddf22bfe3925899cbb9ecf5d5157525becdcb4?cid=6b58815e509940539428705cce2b1d14",
+      "name": "adore u",
+      "href": "https://api.spotify.com/v1/tracks/1rf4SX7dduNbrNnOmupLzi",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Obongjayar"
+        }
+      ],
+      "danceability": 0.747,
+      "energy": 0.867,
+      "key": 0,
+      "loudness": -7.311,
+      "mode": 1,
+      "speechiness": 0.088,
+      "acousticness": 0.582,
+      "instrumentalness": 0.00413,
+      "liveness": 0.114,
+      "valence": 0.684,
+      "tempo": 124.014,
+      "type": "audio_features",
+      "uri": "spotify:track:1rf4SX7dduNbrNnOmupLzi",
+      "track_href": "https://api.spotify.com/v1/tracks/1rf4SX7dduNbrNnOmupLzi",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1rf4SX7dduNbrNnOmupLzi",
+      "duration_ms": 220653,
+      "time_signature": 4
+    },
+    {
+      "id": "4RK8ACIo6MlEv8WyMIoxOa",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a4d0b676bb7030d98132e9ba22be64e26c8950bb?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Mollie (hear your name)",
+      "href": "https://api.spotify.com/v1/tracks/4RK8ACIo6MlEv8WyMIoxOa",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ]
+    },
+    {
+      "id": "3g36i54mvaZbiJJnwsPa9E",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c12747d8cd275dbe61e3ddf8c3483d2413676446?cid=6b58815e509940539428705cce2b1d14",
+      "name": "October 15th 2021",
+      "href": "https://api.spotify.com/v1/tracks/3g36i54mvaZbiJJnwsPa9E",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.134,
+      "energy": 0.037,
+      "key": 1,
+      "loudness": -25.864,
+      "mode": 1,
+      "speechiness": 0.0368,
+      "acousticness": 0.931,
+      "instrumentalness": 0.897,
+      "liveness": 0.114,
+      "valence": 0.0339,
+      "tempo": 96.147,
+      "type": "audio_features",
+      "uri": "spotify:track:3g36i54mvaZbiJJnwsPa9E",
+      "track_href": "https://api.spotify.com/v1/tracks/3g36i54mvaZbiJJnwsPa9E",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3g36i54mvaZbiJJnwsPa9E",
+      "duration_ms": 54000,
+      "time_signature": 3
+    },
+    {
+      "id": "0wcI2aJVkHC2XLLq5XTkSC",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4570f099a3bca747ed49be350af9433a022b2327?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Billie (interlude)",
+      "href": "https://api.spotify.com/v1/tracks/0wcI2aJVkHC2XLLq5XTkSC",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.368,
+      "energy": 0.247,
+      "key": 8,
+      "loudness": -19.706,
+      "mode": 1,
+      "speechiness": 0.0436,
+      "acousticness": 0.975,
+      "instrumentalness": 0.179,
+      "liveness": 0.405,
+      "valence": 0.222,
+      "tempo": 102.717,
+      "type": "audio_features",
+      "uri": "spotify:track:0wcI2aJVkHC2XLLq5XTkSC",
+      "track_href": "https://api.spotify.com/v1/tracks/0wcI2aJVkHC2XLLq5XTkSC",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0wcI2aJVkHC2XLLq5XTkSC",
+      "duration_ms": 71274,
+      "time_signature": 3
+    },
+    {
+      "id": "1vW12BfxjOQKYElBm9ttW9",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4dfd86839bfd70fd352a1efe6c0d376747574516?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Billie (loving arms)",
+      "href": "https://api.spotify.com/v1/tracks/1vW12BfxjOQKYElBm9ttW9",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.648,
+      "energy": 0.775,
+      "key": 5,
+      "loudness": -4.798,
+      "mode": 1,
+      "speechiness": 0.0694,
+      "acousticness": 0.0561,
+      "instrumentalness": 0,
+      "liveness": 0.444,
+      "valence": 0.371,
+      "tempo": 128.072,
+      "type": "audio_features",
+      "uri": "spotify:track:1vW12BfxjOQKYElBm9ttW9",
+      "track_href": "https://api.spotify.com/v1/tracks/1vW12BfxjOQKYElBm9ttW9",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1vW12BfxjOQKYElBm9ttW9",
+      "duration_ms": 217266,
+      "time_signature": 4
+    },
+    {
+      "id": "586YOB3K1KcWtOKLUq2lKl",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a84a72e2681f705b0255bf341d1bfc7c8d9f6027?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Marco (and everyone)",
+      "href": "https://api.spotify.com/v1/tracks/586YOB3K1KcWtOKLUq2lKl",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.757,
+      "energy": 0.963,
+      "key": 0,
+      "loudness": -6.012,
+      "mode": 0,
+      "speechiness": 0.148,
+      "acousticness": 0.0382,
+      "instrumentalness": 0.145,
+      "liveness": 0.112,
+      "valence": 0.494,
+      "tempo": 127.969,
+      "type": "audio_features",
+      "uri": "spotify:track:586YOB3K1KcWtOKLUq2lKl",
+      "track_href": "https://api.spotify.com/v1/tracks/586YOB3K1KcWtOKLUq2lKl",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/586YOB3K1KcWtOKLUq2lKl",
+      "duration_ms": 149309,
+      "time_signature": 4
+    },
+    {
+      "id": "0F3DdOECeVoVaELgPcYiSf",
+      "previewUrl": "https://p.scdn.co/mp3-preview/710212775a50330def146ed5317b04414d68fb88?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Tanya (maybe life)",
+      "href": "https://api.spotify.com/v1/tracks/0F3DdOECeVoVaELgPcYiSf",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.692,
+      "energy": 0.842,
+      "key": 5,
+      "loudness": -8.199,
+      "mode": 1,
+      "speechiness": 0.392,
+      "acousticness": 0.0483,
+      "instrumentalness": 0.00000248,
+      "liveness": 0.382,
+      "valence": 0.227,
+      "tempo": 128.037,
+      "type": "audio_features",
+      "uri": "spotify:track:0F3DdOECeVoVaELgPcYiSf",
+      "track_href": "https://api.spotify.com/v1/tracks/0F3DdOECeVoVaELgPcYiSf",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0F3DdOECeVoVaELgPcYiSf",
+      "duration_ms": 316129,
+      "time_signature": 4
+    },
+    {
+      "id": "6XmfCIEMyRqpsKMkuNKlQD",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4084cdb3dc8fb3ef91eb15a13ef174c912cb1cc0?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Tayla (every night)",
+      "href": "https://api.spotify.com/v1/tracks/6XmfCIEMyRqpsKMkuNKlQD",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.455,
+      "energy": 0.469,
+      "key": 7,
+      "loudness": -8.518,
+      "mode": 0,
+      "speechiness": 0.0704,
+      "acousticness": 0.859,
+      "instrumentalness": 0.00000886,
+      "liveness": 0.16,
+      "valence": 0.307,
+      "tempo": 128.092,
+      "type": "audio_features",
+      "uri": "spotify:track:6XmfCIEMyRqpsKMkuNKlQD",
+      "track_href": "https://api.spotify.com/v1/tracks/6XmfCIEMyRqpsKMkuNKlQD",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/6XmfCIEMyRqpsKMkuNKlQD",
+      "duration_ms": 65500,
+      "time_signature": 4
+    },
+    {
+      "id": "1uyQNwG1sFl7etjFTEHlQp",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4c9c69e2cc265779f4ae3a66975989c4e6023da6?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Faisal (envelops me)",
+      "href": "https://api.spotify.com/v1/tracks/1uyQNwG1sFl7etjFTEHlQp",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.726,
+      "energy": 0.603,
+      "key": 9,
+      "loudness": -8.283,
+      "mode": 0,
+      "speechiness": 0.0613,
+      "acousticness": 0.309,
+      "instrumentalness": 0.0519,
+      "liveness": 0.102,
+      "valence": 0.284,
+      "tempo": 122.024,
+      "type": "audio_features",
+      "uri": "spotify:track:1uyQNwG1sFl7etjFTEHlQp",
+      "track_href": "https://api.spotify.com/v1/tracks/1uyQNwG1sFl7etjFTEHlQp",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/1uyQNwG1sFl7etjFTEHlQp",
+      "duration_ms": 250291,
+      "time_signature": 4
+    },
+    {
+      "id": "4AGwu2Zn3sYmR2s2y3vfft",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1c681766fdbd9b704deb38d67d0439682dbb5091?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Hannah (the sun)",
+      "href": "https://api.spotify.com/v1/tracks/4AGwu2Zn3sYmR2s2y3vfft",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.767,
+      "energy": 0.878,
+      "key": 8,
+      "loudness": -4.581,
+      "mode": 1,
+      "speechiness": 0.0648,
+      "acousticness": 0.0249,
+      "instrumentalness": 0.0294,
+      "liveness": 0.147,
+      "valence": 0.401,
+      "tempo": 125.018,
+      "type": "audio_features",
+      "uri": "spotify:track:4AGwu2Zn3sYmR2s2y3vfft",
+      "track_href": "https://api.spotify.com/v1/tracks/4AGwu2Zn3sYmR2s2y3vfft",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4AGwu2Zn3sYmR2s2y3vfft",
+      "duration_ms": 196797,
+      "time_signature": 4
+    },
+    {
+      "id": "03LSUjL0Rqh2Lpj1rKgsmG",
+      "previewUrl": "https://p.scdn.co/mp3-preview/3393757afc9aaff420aff667e156e168d82b1a5f?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Carlos (interlude)",
+      "href": "https://api.spotify.com/v1/tracks/03LSUjL0Rqh2Lpj1rKgsmG",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.43,
+      "energy": 0.1,
+      "key": 11,
+      "loudness": -16.291,
+      "mode": 0,
+      "speechiness": 0.0499,
+      "acousticness": 0.957,
+      "instrumentalness": 0.147,
+      "liveness": 0.104,
+      "valence": 0.173,
+      "tempo": 120.118,
+      "type": "audio_features",
+      "uri": "spotify:track:03LSUjL0Rqh2Lpj1rKgsmG",
+      "track_href": "https://api.spotify.com/v1/tracks/03LSUjL0Rqh2Lpj1rKgsmG",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/03LSUjL0Rqh2Lpj1rKgsmG",
+      "duration_ms": 121709,
+      "time_signature": 4
+    },
+    {
+      "id": "521n5wagIZ1522mA2ynHDL",
+      "previewUrl": "https://p.scdn.co/mp3-preview/20119bc654f7c0c45b0ce8f6f55e486545ce358c?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Tate (how i feel)",
+      "href": "https://api.spotify.com/v1/tracks/521n5wagIZ1522mA2ynHDL",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.781,
+      "energy": 0.765,
+      "key": 0,
+      "loudness": -8.228,
+      "mode": 1,
+      "speechiness": 0.221,
+      "acousticness": 0.163,
+      "instrumentalness": 0.00112,
+      "liveness": 0.903,
+      "valence": 0.64,
+      "tempo": 125.197,
+      "type": "audio_features",
+      "uri": "spotify:track:521n5wagIZ1522mA2ynHDL",
+      "track_href": "https://api.spotify.com/v1/tracks/521n5wagIZ1522mA2ynHDL",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/521n5wagIZ1522mA2ynHDL",
+      "duration_ms": 222250,
+      "time_signature": 4
+    },
+    {
+      "id": "3IGsYYUDb4PrfrsP5tmjHd",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4ec59fa4c4bd283e998064b61d5a51d401c136b5?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Kahan (last year)",
+      "href": "https://api.spotify.com/v1/tracks/3IGsYYUDb4PrfrsP5tmjHd",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "Kodak Black"
+        }
+      ],
+      "danceability": 0.441,
+      "energy": 0.428,
+      "key": 9,
+      "loudness": -10.694,
+      "mode": 1,
+      "speechiness": 0.0609,
+      "acousticness": 0.856,
+      "instrumentalness": 0.000144,
+      "liveness": 0.112,
+      "valence": 0.15,
+      "tempo": 106.318,
+      "type": "audio_features",
+      "uri": "spotify:track:3IGsYYUDb4PrfrsP5tmjHd",
+      "track_href": "https://api.spotify.com/v1/tracks/3IGsYYUDb4PrfrsP5tmjHd",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3IGsYYUDb4PrfrsP5tmjHd",
+      "duration_ms": 216000,
+      "time_signature": 4
+    },
+    {
+      "id": "7N2wo21802GHMoBgy3OnC9",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7b0b626f5fed80c4e7740290991c9a176536079a?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Gigi (what you went through)",
+      "href": "https://api.spotify.com/v1/tracks/7N2wo21802GHMoBgy3OnC9",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.422,
+      "energy": 0.714,
+      "key": 8,
+      "loudness": -8.644,
+      "mode": 1,
+      "speechiness": 0.118,
+      "acousticness": 0.281,
+      "instrumentalness": 0.115,
+      "liveness": 0.209,
+      "valence": 0.174,
+      "tempo": 124.167,
+      "type": "audio_features",
+      "uri": "spotify:track:7N2wo21802GHMoBgy3OnC9",
+      "track_href": "https://api.spotify.com/v1/tracks/7N2wo21802GHMoBgy3OnC9",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/7N2wo21802GHMoBgy3OnC9",
+      "duration_ms": 199000,
+      "time_signature": 4
+    },
+    {
+      "id": "4iWbvTeormWby3QX0nO85q",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2f27da36b04c63bba2605c1b28ed340eece098a8?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Roze (forgive)",
+      "href": "https://api.spotify.com/v1/tracks/4iWbvTeormWby3QX0nO85q",
+      "artists": [
+        {
+          "name": "Fred again.."
+        },
+        {
+          "name": "I Am Roze"
+        }
+      ],
+      "danceability": 0.61,
+      "energy": 0.76,
+      "key": 0,
+      "loudness": -7.028,
+      "mode": 1,
+      "speechiness": 0.0582,
+      "acousticness": 0.0411,
+      "instrumentalness": 0.00975,
+      "liveness": 0.12,
+      "valence": 0.458,
+      "tempo": 129.93,
+      "type": "audio_features",
+      "uri": "spotify:track:4iWbvTeormWby3QX0nO85q",
+      "track_href": "https://api.spotify.com/v1/tracks/4iWbvTeormWby3QX0nO85q",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4iWbvTeormWby3QX0nO85q",
+      "duration_ms": 229000,
+      "time_signature": 4
+    },
+    {
+      "id": "3Ad6VqoDpOrJ1CbYFOlUOy",
+      "previewUrl": "https://p.scdn.co/mp3-preview/9b2dbc108f7ee70ee08e26dbbc1ebfe27015a54a?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Catrin (the city)",
+      "href": "https://api.spotify.com/v1/tracks/3Ad6VqoDpOrJ1CbYFOlUOy",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.42,
+      "energy": 0.791,
+      "key": 3,
+      "loudness": -7.245,
+      "mode": 0,
+      "speechiness": 0.0552,
+      "acousticness": 0.391,
+      "instrumentalness": 0.0357,
+      "liveness": 0.0884,
+      "valence": 0.093,
+      "tempo": 106.065,
+      "type": "audio_features",
+      "uri": "spotify:track:3Ad6VqoDpOrJ1CbYFOlUOy",
+      "track_href": "https://api.spotify.com/v1/tracks/3Ad6VqoDpOrJ1CbYFOlUOy",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3Ad6VqoDpOrJ1CbYFOlUOy",
+      "duration_ms": 206875,
+      "time_signature": 4
+    },
+    {
+      "id": "0tEa99m4rUkLdHBvWCVLiv",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ad064f8a85ec33d5c893975243459101ac95dcbf?cid=6b58815e509940539428705cce2b1d14",
+      "name": "February 2nd 2021",
+      "href": "https://api.spotify.com/v1/tracks/0tEa99m4rUkLdHBvWCVLiv",
+      "artists": [
+        {
+          "name": "Fred again.."
+        }
+      ],
+      "danceability": 0.347,
+      "energy": 0.366,
+      "key": 11,
+      "loudness": -15.394,
+      "mode": 1,
+      "speechiness": 0.187,
+      "acousticness": 0.608,
+      "instrumentalness": 0.2,
+      "liveness": 0.0747,
+      "valence": 0.234,
+      "tempo": 136.514,
+      "type": "audio_features",
+      "uri": "spotify:track:0tEa99m4rUkLdHBvWCVLiv",
+      "track_href": "https://api.spotify.com/v1/tracks/0tEa99m4rUkLdHBvWCVLiv",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0tEa99m4rUkLdHBvWCVLiv",
+      "duration_ms": 43250,
+      "time_signature": 3
+    },
+    {
       "id": "7CGeuhEwxg4edNO5eLLCxm",
       "previewUrl": "https://p.scdn.co/mp3-preview/16ce48d819d1a790d5983b76a613d9a84019e788?cid=6b58815e509940539428705cce2b1d14",
       "name": "Spring",
@@ -1715,7 +4936,7 @@
     },
     {
       "id": "5EqGquh3ajBQjudpLLhJKy",
-      "previewUrl": "https://p.scdn.co/mp3-preview/35c5a28c1b31d27eb8799dfe6b4f03d7241314c1?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/b4a38172656a08bad75afdec824adc9b49ab6c80?cid=6b58815e509940539428705cce2b1d14",
       "name": "Mr. White",
       "href": "https://api.spotify.com/v1/tracks/5EqGquh3ajBQjudpLLhJKy",
       "artists": [
@@ -1743,7 +4964,7 @@
     },
     {
       "id": "2kGMBOPXMtb9gxzVYdplg9",
-      "previewUrl": "https://p.scdn.co/mp3-preview/92965e43521e030f64839d511fd96511475ae9f2?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/175251082e2fae72520c5c191cd6404bf62f350c?cid=6b58815e509940539428705cce2b1d14",
       "name": "Two Fish and an Elephant",
       "href": "https://api.spotify.com/v1/tracks/2kGMBOPXMtb9gxzVYdplg9",
       "artists": [
@@ -1771,7 +4992,7 @@
     },
     {
       "id": "47FmTHqPWGWEfbgDpLjvCt",
-      "previewUrl": "https://p.scdn.co/mp3-preview/1d30e058e3c1fdd550f3768a6e918da9c38bc967?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/40461c799dc9ba6703339f82676419c1459a862d?cid=6b58815e509940539428705cce2b1d14",
       "name": "Dern Kala",
       "href": "https://api.spotify.com/v1/tracks/47FmTHqPWGWEfbgDpLjvCt",
       "artists": [
@@ -1799,7 +5020,7 @@
     },
     {
       "id": "0mzU6qEuvtPrL9UcXAVKKU",
-      "previewUrl": "https://p.scdn.co/mp3-preview/e6674789e6a92ea7edb45376f0036f6faa805549?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c7f5b123a248709aa563d03e0191d3af1f4738b9?cid=6b58815e509940539428705cce2b1d14",
       "name": "Little Joe & Mary",
       "href": "https://api.spotify.com/v1/tracks/0mzU6qEuvtPrL9UcXAVKKU",
       "artists": [
@@ -1827,7 +5048,7 @@
     },
     {
       "id": "4AKUOaCRcoKTFnVI9LtsrN",
-      "previewUrl": "https://p.scdn.co/mp3-preview/51fd1b897f437b6b97409586fce921ea98a32225?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0f860aefb7487fc94bcbd4cd656e7e199c20bc24?cid=6b58815e509940539428705cce2b1d14",
       "name": "White Gloves",
       "href": "https://api.spotify.com/v1/tracks/4AKUOaCRcoKTFnVI9LtsrN",
       "artists": [
@@ -1855,7 +5076,7 @@
     },
     {
       "id": "2OQ1V0e2O56AeIo4ywuYKF",
-      "previewUrl": "https://p.scdn.co/mp3-preview/ffab509570c91d131eae0bef57deb515cfcd900b?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/71c727feb28bb96a594e7cfd0002ba4c15d3c079?cid=6b58815e509940539428705cce2b1d14",
       "name": "People Everywhere (Still Alive)",
       "href": "https://api.spotify.com/v1/tracks/2OQ1V0e2O56AeIo4ywuYKF",
       "artists": [
@@ -1883,7 +5104,7 @@
     },
     {
       "id": "4ZHRjk3TZeUOG6Ri6sN27u",
-      "previewUrl": "https://p.scdn.co/mp3-preview/6678d4e542fb705126d1ca61be47684689ce7c73?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/177622a9d43b0dc5c545ae7fac9070b6bf3dbb35?cid=6b58815e509940539428705cce2b1d14",
       "name": "The Man Who Took My Sunglasses",
       "href": "https://api.spotify.com/v1/tracks/4ZHRjk3TZeUOG6Ri6sN27u",
       "artists": [
@@ -1911,7 +5132,7 @@
     },
     {
       "id": "26qIVWus5hMZUcWeJUxeJx",
-      "previewUrl": "https://p.scdn.co/mp3-preview/41b160427da51a56acabecf021c31acfb28822c6?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a557e5cd7f3d4a545ecd7f811bde3444c5db4539?cid=6b58815e509940539428705cce2b1d14",
       "name": "August Twelve",
       "href": "https://api.spotify.com/v1/tracks/26qIVWus5hMZUcWeJUxeJx",
       "artists": [
@@ -1939,7 +5160,7 @@
     },
     {
       "id": "3kkYC1IPmXm5OrPaKFIX1B",
-      "previewUrl": "https://p.scdn.co/mp3-preview/5d88873ee4645f7e1c5bf86ab1157bf455b17d93?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/9621a6b0e26b6ede2d5bb871f3cb05f69c615cc6?cid=6b58815e509940539428705cce2b1d14",
       "name": "Balls and Pins",
       "href": "https://api.spotify.com/v1/tracks/3kkYC1IPmXm5OrPaKFIX1B",
       "artists": [
@@ -1967,7 +5188,7 @@
     },
     {
       "id": "1IVgPGfYxyuOLKOYdEBLOW",
-      "previewUrl": "https://p.scdn.co/mp3-preview/7720e90292198d500428f57d9aee04b7a8622d5c?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/970e2d3fa95637773217889a063cac994c5d5821?cid=6b58815e509940539428705cce2b1d14",
       "name": "Zionsville",
       "href": "https://api.spotify.com/v1/tracks/1IVgPGfYxyuOLKOYdEBLOW",
       "artists": [
@@ -2330,7 +5551,7 @@
     },
     {
       "id": "76QLGx0NleOYqkDtL7HKIA",
-      "previewUrl": "https://p.scdn.co/mp3-preview/14d856cf8ef0ee6a8cd085b3d6e07e5af2bcc69a?cid=6b58815e509940539428705cce2b1d14",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a16dca853ddb070bb3b9cc12a74e0cad015be5cf?cid=6b58815e509940539428705cce2b1d14",
       "name": "Close Your Eyes (And Count to Fuck) [feat. Zack De La Rocha]",
       "href": "https://api.spotify.com/v1/tracks/76QLGx0NleOYqkDtL7HKIA",
       "artists": [
@@ -2394,24 +5615,7 @@
         {
           "name": "Yeah Yeah Yeahs"
         }
-      ],
-      "danceability": 0.233,
-      "energy": 0.584,
-      "key": 7,
-      "loudness": -8.187,
-      "mode": 1,
-      "speechiness": 0.0338,
-      "acousticness": 0.00217,
-      "instrumentalness": 0.398,
-      "liveness": 0.36,
-      "valence": 0.0392,
-      "tempo": 95.86,
-      "type": "audio_features",
-      "uri": "spotify:track:4QDlcd4wAmmXXtKryfTxnO",
-      "track_href": "https://api.spotify.com/v1/tracks/4QDlcd4wAmmXXtKryfTxnO",
-      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4QDlcd4wAmmXXtKryfTxnO",
-      "duration_ms": 302160,
-      "time_signature": 4
+      ]
     },
     {
       "id": "1pvlznzPWn4XiPzQzrrdIU",
@@ -2791,6 +5995,33 @@
       "track_href": "https://api.spotify.com/v1/tracks/3dUMuxNadGxCE3qXuhCwqa",
       "analysis_url": "https://api.spotify.com/v1/audio-analysis/3dUMuxNadGxCE3qXuhCwqa",
       "duration_ms": 205200,
+      "time_signature": 4
+    },
+    {
+      "id": "0pGyXRaXMjWFasWjO4oDNi",
+      "name": "Seven Nation Army",
+      "href": "https://api.spotify.com/v1/tracks/0pGyXRaXMjWFasWjO4oDNi",
+      "artists": [
+        {
+          "name": "Ben L'Oncle Soul"
+        }
+      ],
+      "danceability": 0.74,
+      "energy": 0.589,
+      "key": 11,
+      "loudness": -5.355,
+      "mode": 0,
+      "speechiness": 0.0349,
+      "acousticness": 0.0642,
+      "instrumentalness": 0.0994,
+      "liveness": 0.141,
+      "valence": 0.869,
+      "tempo": 109.981,
+      "type": "audio_features",
+      "uri": "spotify:track:0pGyXRaXMjWFasWjO4oDNi",
+      "track_href": "https://api.spotify.com/v1/tracks/0pGyXRaXMjWFasWjO4oDNi",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/0pGyXRaXMjWFasWjO4oDNi",
+      "duration_ms": 178987,
       "time_signature": 4
     },
     {
@@ -5163,24 +8394,7 @@
         {
           "name": "Gabriel Garzón-Montano"
         }
-      ],
-      "danceability": 0.84,
-      "energy": 0.493,
-      "key": 1,
-      "loudness": -8.958,
-      "mode": 1,
-      "speechiness": 0.183,
-      "acousticness": 0.66,
-      "instrumentalness": 0.0118,
-      "liveness": 0.0995,
-      "valence": 0.951,
-      "tempo": 171.686,
-      "type": "audio_features",
-      "uri": "spotify:track:3LmW4KXBYAD5VFrlQGXvxr",
-      "track_href": "https://api.spotify.com/v1/tracks/3LmW4KXBYAD5VFrlQGXvxr",
-      "analysis_url": "https://api.spotify.com/v1/audio-analysis/3LmW4KXBYAD5VFrlQGXvxr",
-      "duration_ms": 253271,
-      "time_signature": 4
+      ]
     },
     {
       "id": "0WSlOSMLJWoWUpWci9nnRb",
@@ -5578,6 +8792,34 @@
       "track_href": "https://api.spotify.com/v1/tracks/35qY5lwBiA60lgLxrwWK4D",
       "analysis_url": "https://api.spotify.com/v1/audio-analysis/35qY5lwBiA60lgLxrwWK4D",
       "duration_ms": 189372,
+      "time_signature": 4
+    },
+    {
+      "id": "4cnNSbTTDBy8K47ILV3VYT",
+      "previewUrl": "https://p.scdn.co/mp3-preview/d31c5a55c7034e36bc344eea9d2b5d0f117d9836?cid=6b58815e509940539428705cce2b1d14",
+      "name": "Live On",
+      "href": "https://api.spotify.com/v1/tracks/4cnNSbTTDBy8K47ILV3VYT",
+      "artists": [
+        {
+          "name": "Delta Spirit"
+        }
+      ],
+      "danceability": 0.338,
+      "energy": 0.848,
+      "key": 8,
+      "loudness": -4.298,
+      "mode": 1,
+      "speechiness": 0.0504,
+      "acousticness": 0.00484,
+      "instrumentalness": 0.158,
+      "liveness": 0.265,
+      "valence": 0.23,
+      "tempo": 162.035,
+      "type": "audio_features",
+      "uri": "spotify:track:4cnNSbTTDBy8K47ILV3VYT",
+      "track_href": "https://api.spotify.com/v1/tracks/4cnNSbTTDBy8K47ILV3VYT",
+      "analysis_url": "https://api.spotify.com/v1/audio-analysis/4cnNSbTTDBy8K47ILV3VYT",
+      "duration_ms": 253073,
       "time_signature": 4
     },
     {
@@ -7934,24 +11176,7 @@
         {
           "name": "Arcade Fire"
         }
-      ],
-      "danceability": 0.515,
-      "energy": 0.809,
-      "key": 8,
-      "loudness": -6.434,
-      "mode": 1,
-      "speechiness": 0.0289,
-      "acousticness": 0.0127,
-      "instrumentalness": 0.00151,
-      "liveness": 0.111,
-      "valence": 0.202,
-      "tempo": 99.973,
-      "type": "audio_features",
-      "uri": "spotify:track:2GO8ZpAPxr1obsQ9PqSQc5",
-      "track_href": "https://api.spotify.com/v1/tracks/2GO8ZpAPxr1obsQ9PqSQc5",
-      "analysis_url": "https://api.spotify.com/v1/audio-analysis/2GO8ZpAPxr1obsQ9PqSQc5",
-      "duration_ms": 325707,
-      "time_signature": 4
+      ]
     },
     {
       "id": "1N9AYzyvUKjBYWNr56hUnc",

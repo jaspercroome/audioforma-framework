@@ -35,7 +35,7 @@ tsne = TSNE(n_components=3, random_state=30, early_exaggeration=12)
 X_tsne = tsne.fit_transform(X_scaled)
 
 # Apply DBSCAN to the t-SNE output
-dbscan = DBSCAN(eps=.9, min_samples=5)  # Adjust `eps` and `min_samples` for best results
+dbscan = DBSCAN(eps=1.1, min_samples=5)
 cluster_labels = dbscan.fit_predict(X_tsne)
 
 # Add cluster labels to the dataframe
@@ -63,16 +63,26 @@ for cluster_id in set(cluster_labels):
     closest_index = np.linalg.norm(X_tsne[filtered_df['cluster'] == cluster_id] - cluster_centroid, axis=1).argmin()
     representative_track = cluster_tracks.iloc[closest_index]
 
-    # Generate a more relatable description for the cluster
     avg_energy = cluster_tracks['energy'].mean()
     avg_tempo = cluster_tracks['tempo_bucketed'].mean()
     common_key = Counter(cluster_tracks['key']).most_common(1)[0][0]
     common_mode = Counter(cluster_tracks['mode']).most_common(1)[0][0]
 
     # Convert key from integer to note representation
-    key_mapping = [
-        'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'
-    ]
+    key_mapping = {
+        0: "C",
+        1: "C#",
+        2: "D",
+        3: "D#",
+        4: "E",
+        5: "F",
+        6: "F#",
+        7: "G",
+        8: "G#",
+        9: "A",
+        10: "A#",
+        11: "B",
+    };
     common_key_note = key_mapping[common_key]
 
     # Define energy level dynamically

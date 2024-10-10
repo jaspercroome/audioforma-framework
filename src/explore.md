@@ -19,11 +19,11 @@ import { songSpheres } from "./components/songSpheres.js";
 const tracks = await FileAttachment("./data/tracks.json").json();
 ```
 
-<!-- ```ts
-uncomment this to load your latest songs, which can then be pasted into my_tracks
-const mySongs = await getSpotifyData();
-display(mySongs);
-``` -->
+```ts
+// uncomment this to load your latest songs, which can then be pasted into my_tracks
+// const mySongs = await getSpotifyData("explore");
+// display(mySongs);
+```
 
 ```ts
 const artists = Array.from(new Set(tracks.map((track) => track.artist))).sort();

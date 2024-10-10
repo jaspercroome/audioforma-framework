@@ -12,16 +12,17 @@ type Song = {
   id: string;
   name: string;
   tsne: [number, number, number];
-  pca: [number, number, number];
   energy: number;
   valence: number;
   danceability: number;
   acousticness: number;
   key: number;
   mode: 0 | 1;
+  timeSignature: number;
   previewUrl?: string;
   isRepresentative?: boolean;
   clusterDescription?: string;
+  cluster: number;
 };
 
 type SongArray = Array<Song>;
@@ -87,12 +88,21 @@ const addSpheres = (songs: SongArray, scene: THREE.Scene) => {
   const yScale = d3.scaleLinear().domain(yExtent).range([-8, 8]);
   const zScale = d3.scaleLinear().domain(zExtent).range([-8, 8]);
 
+  const clusters = Array.from(new Set(songs.map((item) => item.cluster)));
+
+  const maxCluster = Math.max(...clusters);
+
   songs.forEach((song) => {
     const isClusterRep = song.id.includes("rep_");
-    const repColor = new THREE.Color(0.78, 0.7, 0.78);
-    const color = new THREE.Color(
-      d3.hsl((1 - song.valence) * 270, 0.8, 0.5).toString()
+    const colorAngle = song.cluster / maxCluster;
+
+    const repColor = new THREE.Color(
+      d3.hsl(colorAngle * 270, 0.7, 0.5).toString()
     );
+    const color =
+      colorAngle < 0
+        ? "#afafaf"
+        : new THREE.Color(d3.hsl(colorAngle * 270, 0.4, 0.5).toString());
     const material = new THREE.MeshStandardMaterial({
       color: isClusterRep ? repColor : color,
       roughness: 0.5,
@@ -178,7 +188,7 @@ const addGrids = (scene: THREE.Scene) => {
 };
 const addHighlightRing = (scene: THREE.Scene) => {
   // Ring for highlighting hovered sphere
-  const ringGeometry = new THREE.RingGeometry(0.22, 0.27, 32);
+  const ringGeometry = new THREE.RingGeometry(0.4, 0.27, 32);
   const ringMaterial = new THREE.MeshBasicMaterial({
     color: 0xffffff,
     side: THREE.DoubleSide,
@@ -261,7 +271,7 @@ const updateTooltip = (songData: Song, tooltip: HTMLDivElement | null) => {
       const title = document.getElementById("tooltip-title");
       const prompt = document.getElementById("preview-prompt");
       if (title) {
-        title.innerHTML = `<strong>${songData.name} - ${songData.artist}</strong>`;
+        title.innerHTML = `<strong>${songData.name} - ${songData.artist}</strong><br>Group ${songData.cluster}`;
         if (songData.previewUrl) {
           if (prompt) {
             prompt.style.visibility = "visible";
@@ -278,7 +288,7 @@ const updateTooltip = (songData: Song, tooltip: HTMLDivElement | null) => {
     } else {
       const title = document.getElementById("tooltip-title");
       if (title) {
-        title.innerHTML = `<strong>Cluster Representative: ${songData.name}</strong><br><p>${songData.clusterDescription}</p>`;
+        title.innerHTML = `<strong>Group ${songData.cluster} Representative: ${songData.name}</strong><br><p>${songData.clusterDescription}</p>`;
       }
     }
     tooltip.style.opacity = "1";
