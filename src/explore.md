@@ -25,22 +25,19 @@ import { songSpheres } from "./components/songSpheres.js";
 ```
 
 ```ts
-const tracks = await FileAttachment("./data/tracks.json").json();
-```
-
-```ts
 const token = localStorage.getItem("af-spotifyAccessToken");
 ```
 
 ```ts
-// uncomment this to load your latest songs, which can then be pasted into my_tracks
 const mySongs = await getSpotifyData(token);
+const fallbackSongs = await FileAttachment("./data/tracks.json").json();
+const songs = mySongs ?? fallbackSongs.tracks;
 ```
 
 ```ts
 const artists = Array.from(
   new Set(
-    mySongs
+    songs
       .filter((song) => song.previewUrl)
       .map((track) => track.artists[0].name)
   )
@@ -74,7 +71,7 @@ const artistsSelection = view(
 ```
 
 ```ts
-display(songSpheres(mySongs, artistsSelection));
+display(songSpheres(songs, artistsSelection));
 ```
 
 ```html
