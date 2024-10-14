@@ -6,10 +6,19 @@ toc: false
 
 # Explore
 
-Take a look at how my spotify songs compare to one another
+These songs are placed in space according to their audio characteristics, based on analysis by the team at Spotify.
+
+Songs placed higher vertically were deemed to have a higher 'valence' (i.e., happiness rating). Left-Right and Front-Back are Loudness and Danceability, which are self-explanatory.
+
+Take a look at where certain songs are, and who their neighbors are. Does it make sense? does it not?
+
+```tsx
+display(<AuthenticationButton pageName="song-details" />);
+```
 
 ```js
 import { connectAudio } from "./components/connectAudio.js";
+import { AuthenticationButton } from "./components/AuthenticationButton.js";
 import { getSpotifyData } from "./components/getSpotifyData.js";
 import { MeydaChart } from "./components/meydaChart.js";
 import { songSpheres } from "./components/songSpheres.js";
@@ -20,18 +29,26 @@ const tracks = await FileAttachment("./data/tracks.json").json();
 ```
 
 ```ts
-// uncomment this to load your latest songs, which can then be pasted into my_tracks
-// const mySongs = await getSpotifyData("explore");
-// display(mySongs);
+const token = localStorage.getItem("af-spotifyAccessToken");
 ```
 
 ```ts
-const artists = Array.from(new Set(tracks.map((track) => track.artist))).sort();
+// uncomment this to load your latest songs, which can then be pasted into my_tracks
+const mySongs = await getSpotifyData(token);
+```
+
+```ts
+const artists = Array.from(
+  new Set(
+    mySongs
+      .filter((song) => song.previewUrl)
+      .map((track) => track.artists[0].name)
+  )
+).sort();
 const artistsSelection = view(
-  Inputs.search(artists, {
+  Inputs.select(artists, {
     multiple: true,
     label: "Focus Artists",
-    autocomplete: true,
   })
 );
 ```
@@ -57,7 +74,7 @@ const artistsSelection = view(
 ```
 
 ```ts
-display(songSpheres(tracks, artistsSelection));
+display(songSpheres(mySongs, artistsSelection));
 ```
 
 ```html

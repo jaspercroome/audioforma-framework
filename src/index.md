@@ -3,23 +3,25 @@ toc: false
 ---
 
 ```js
-import { getSpotifyData } from "./components/getSpotifyData.js";
+import {
+  getSpotifyAuthorization,
+  getSpotifyToken,
+} from "./components/getSpotifyToken.js";
+import { AuthenticationButton } from "./components/AuthenticationButton.js";
 ```
 
 <div class="hero">
   <h1>AudioForma</h1>
   <p>This is a visual exploration into what makes a song unique.</p>
-  <p>we have some tracks pre-loaded for analysis, but if you want you can load your own spotify tracks for a personalized experience.</p>
-  <button id="getSpotifyData" class="spotify">
-  Get my Spotify Data
-  </button>
+  <p>For this first pass, there's two takes on what a song "looks" like:</p>
+  <p><b>Explore: </b>Where can we place songs in space, based on a comparison of their characteristics?</p>
+  <p><b>Song Details: </b> What does the tonality of a song look like, whenn we plot out the freuqnecy against the circle of fifths?</p>
+  
+  <p>There are some tracks pre-loaded for analysis, but if you want you can load your own spotify tracks for a personalized experience.</p>
 </div>
 
-```ts
-const spotifyButton = document.getElementById("getSpotifyData");
-spotifyButton.addEventListener("click", () => {
-  getSpotifyData("");
-});
+```tsx
+display(<AuthenticationButton pageName="" />);
 ```
 
 <style>
@@ -55,16 +57,6 @@ spotifyButton.addEventListener("click", () => {
   font-weight: 500;
   line-height: 1.5;
   color: var(--theme-foreground-muted);
-}
-.spotify {
-  border-radius: 8px;
-  padding: 8px;
-  height: fit-content;
-  width: fit-content;
-  background:#11ff22;
-  color: black;
-  font-weight:600;
-  cursor:pointer;
 }
 
 @media (min-width: 640px) {

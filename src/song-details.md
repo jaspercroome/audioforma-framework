@@ -7,16 +7,26 @@ toc: false
 # Song Details
 
 Let's take a look at one song in detail, to help understand the visual characteristics of a song.
+If you loaded your token on the homepage, this will be your music. If not, I'm sharing my library with you.
+
+```tsx
+display(<AuthenticationButton pageName="song-details" />);
+```
 
 ```js
 import { MeydaChart } from "./components/MeydaChart.js";
 import { getSpotifyData } from "./components/getSpotifyData.js";
+import { AuthenticationButton } from "./components/AuthenticationButton.js";
 ```
 
 ```ts
-// const freshSongs = await getSpotifyData("song-details");
+const token = localStorage.getItem("af-spotifyAccessToken");
+```
+
+```ts
+const freshSongs = token ? await getSpotifyData(token) : undefined;
 const fallbackSongs = await FileAttachment("./data/my_tracks.json").json();
-const songs = fallbackSongs.tracks;
+const songs = freshSongs ?? fallbackSongs.tracks;
 ```
 
 ```ts
@@ -28,7 +38,6 @@ const selectedArtist = view(
   Inputs.select(artists, {
     multiple: false,
     autocomplete: true,
-    // format: (d) => d.name,
   })
 );
 ```
@@ -37,7 +46,6 @@ const selectedArtist = view(
 const filteredSongs = songsWithPreviews.filter(
   (song) => song.artists[0].name === selectedArtist
 );
-display(filteredSongs);
 ```
 
 ```ts
@@ -46,6 +54,7 @@ const selectedSong = view(
     multiple: false,
     columns: [
       "name",
+      "albumName",
       "danceability",
       "energy",
       "valence",
@@ -53,7 +62,7 @@ const selectedSong = view(
       "mode",
       "duration_ms",
     ],
-    header: { duration_ms: "duration" },
+    header: { duration_ms: "duration", albumName: "Album name" },
     format: {
       duration_ms: (d) => {
         const totalSeconds = d / 1000;
@@ -69,29 +78,29 @@ const selectedSong = view(
 ```
 
 ```jsx
+if (songs.length === 0) {
+  display(
+    <div
+      style={{
+        height: "100%",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignContent: "center",
+      }}
+    >
+      <p style={{ fontFamily: "arial", fontSize: "2em", fontWeight: "bolder" }}>
+        Loading...
+      </p>
+    </div>
+  );
+}
+```
+
+```jsx
 const preview =
   (await selectedSong?.previewUrl) ??
   filteredSongs?.[0].previewUrl ??
   songsWithPreviews?.[0].previewUrl;
 display(<MeydaChart previewUrl={preview} />);
 ```
-
-<!-- ```jsx
-const render = () => {
-  const track = selectedSong.track_href;
-  return (
-    <iframe
-      style="border-radius: 12px"
-      width="100%"
-      height="152"
-      title="Spotify Embed: My Path to Spotify: Women in Engineering"
-      frameborder="0"
-      allowfullscreen
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-      src={track}
-    ></iframe>
-  );
-};
-render();
-``` -->
